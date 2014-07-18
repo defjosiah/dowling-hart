@@ -1,5 +1,14 @@
-﻿Introduction
+﻿<!-- author:Clare Jensen, date:none -->
+#Introduction
+
+##Paragraph 1
 The American Civil War erupted in 1861, but the tensions that fueled the conflict had been building for a long time before the election of Abraham Lincoln. Economic, political, and cultural differences between the North and South, especially on the issue of slavery, grew more and more drastic as the United States aged, until the differences had grown so great that Southern states felt compelled to secede.
+
+##Paragraph 2
 Because the war pitted Americans against each other, the Civil War poses a difficult narrative for US history. Though slavery was certainly an evil institution, is it fair to condemn everyone who fought for the Confederacy, or do they deserve to be celebrated for their honorable deeds and redeemable traits as well?
+
+##Paragraph 3
 Richard “Dick” W. Dowling was born in Tuam, Ireland in 1837. He immigrated to the US in 1846 and moved to Houston in 1857. In 1863 he won a remarkable victory for the Confederacy in the Battle of Sabine Pass against superior Union numbers. He died in 1867 from yellow fever after helping tend victims of the disease. Though he was first remembered by history for his success in the war, he has also been celebrated for his Irish heritage, innovative business ventures, and charitable works.
+
+##Paragraph 4
 Can we remember figures like Dick Dowling, even for their successes in war, despite the fact that they fought on the side of the Confederacy? Could trying to do so undermine the history of abolishing slavery through the Civil War?
