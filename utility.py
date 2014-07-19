@@ -1,16 +1,17 @@
 #helperfunctions
 import os
-import re
 
 def return_file_years(path):
     """
     Loop through the files specified by the path and parse the top level
     comment, return a dictionary mapping file-name to file years. 
     """
-
-    for directory in os.walk(path):
-        print directory
-    return 5
+    name_year = {}
+    for root, dirs, files in os.walk(path):
+        files = [f for f in files if not f[0] == '.']
+        for entry in files:
+            name_year[entry] = parse_markdown_headers(root + entry)
+    return name_year
 
 def parse_markdown_headers(path):
     """
@@ -19,8 +20,8 @@ def parse_markdown_headers(path):
     """
     return_dict = {}
     with open(path, 'r') as f:
-        print f.readline()[4:-4]
-    return 
-
-return_file_years("text/background/")
-parse_markdown_headers("text/background/backg_0_introd.txt")
+        key_val = f.readline()[4:-4].rstrip().split(",")
+        for key in key_val:
+            temp = key.split(":")
+            return_dict[temp[0].strip()] = temp[1]
+    return return_dict
