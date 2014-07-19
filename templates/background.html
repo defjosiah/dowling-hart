@@ -8,6 +8,12 @@
     </head>
 
     <body>
-        <i class="fa fa-circle"></i> fa-circle
+        <ul>
+        {% for i in range(test) %}
+            <li>
+                <i class="fa fa-circle"></i> {{i}} 
+            </li>
+        {% endfor %}
+        </ul>
     </body>
 </html>
