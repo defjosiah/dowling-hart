@@ -8,12 +8,10 @@
     </head>
 
     <body>
-        <ul>
-        {% for i in range(test) %}
-            <div style="font-size: 24px; line-height: 1.5em;">
-            <i class="fa fa-circle"></i> fa-circle
-          </div>
+        <p>
+        {% for year in items %}
+            {{items[year]}}
         {% endfor %}
-        </ul>
+        </p>
     </body>
 </html>

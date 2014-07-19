@@ -8,9 +8,10 @@ def return_file_years(path):
     """
     name_year = {}
     for root, dirs, files in os.walk(path):
+        print root, dirs, files
         files = [f for f in files if not f[0] == '.']
         for entry in files:
-            name_year[entry] = parse_markdown_headers(root + entry)
+            name_year[entry] = parse_markdown_headers(root + "/" + entry)
     return name_year
 
 def parse_markdown_headers(path):
