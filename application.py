@@ -12,7 +12,7 @@ def index():
 @app.route('/background/')
 @app.route('/background/<int:test_variable>')
 def background(test_variable=None):
-    test_variable = utility.return_file_years()
+    #test_variable = utility.return_file_years()
     return render_template('background.html', test=test_variable)
 
 if __name__ == '__main__':

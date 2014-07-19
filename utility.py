@@ -19,8 +19,8 @@ def parse_markdown_headers(path):
     """
     return_dict = {}
     with open(path, 'r') as f:
-        print f.readline()
+        print f.readline()[4:-4]
     return 
 
 return_file_years("text/background/")
-parse_markdown_headers("text/background/backg_0_intro.txt")
+parse_markdown_headers("text/background/backg_0_introd.txt")
