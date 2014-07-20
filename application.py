@@ -1,6 +1,6 @@
 import os
 from utility import return_file_years
-from flask import Flask 
+from flask import Flask
 from flask import render_template
 
 app = Flask(__name__)
