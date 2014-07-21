@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Index Page'
+    return "<a href='/background/'>Background</a>"
 
 @app.route('/background/')
 def background():
