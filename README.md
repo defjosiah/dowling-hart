@@ -17,3 +17,6 @@ Design - Cindy Xiao
 Content - Nathan Andrus and Claire Jensen
 Advisors - Dr. Elizabet Vann and Dr. Caleb McDaniel
 Partners - Rice University and Houston Metropolitan Research Center
+
+###To-Do
+Switch utility functions to a utility class, store lots of local variables, will also make it easier to efficiently reload

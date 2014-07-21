@@ -8,10 +8,10 @@
     </head>
 
     <body>
-        <ul>
-        {% for year in items[1] %}
-            <li>{{items[year]}}</li>
+        {% for doc in items[1] %}
+            <div id="{{items[1][doc]["date"]}}">
+                <i class="fa fa-circle"></i> {{doc}}
+            </div>
         {% endfor %}
-        </ul>
     </body>
 </html>
