@@ -50,6 +50,7 @@ def return_html(path):
     markdown. 
     """
     f = codecs.open(path, mode="r", encoding="utf-8")
-    return markdown.markdown(f.read(), output_format="html5")
+    return markdown.markdown(f.read(), output_format="html5", 
+                                safe_mode=False)
 
 #print return_html("./text/background/backg_1_sabine.txt")

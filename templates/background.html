@@ -16,11 +16,10 @@
         
         <div class="FixedHeightContainer">
           <div class="Content">
-                {{doc[2]["md"]}}
+                {{ doc[2]["md"]|safe }}
           </div>
         </div>
         {% endfor %}
-
 
     </body>
 </html>
