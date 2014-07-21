@@ -4,8 +4,7 @@
     bottom: 12%;
 }
 
-.FixedHeightContainer
-{
+.FixedHeightContainer {
     position:absolute;
     left: 12%;
     top: 6%;
@@ -13,9 +12,14 @@
     width:75%;
     background:#EE3355; 
 }
-.Content
-{
+.Content {
     height:100%;
     overflow:auto;
     background:#fff;
+}
+
+.FixedHeightWidth {
+    position:centered;
+    height: 70%;
+    width:75%;
 }
