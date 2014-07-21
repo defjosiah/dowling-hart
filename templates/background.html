@@ -5,11 +5,12 @@
 
         <!--Font awesome CDN -->
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/static/background.css" type="text/css" media="all" />
     </head>
 
     <body>
         {% for doc in items[1] %}
-            <div id="{{items[1][doc]["date"]}}">
+            <div id="{{doc[:-4]}}">
                 <i class="fa fa-circle"></i> {{doc}}
             </div>
         {% endfor %}
