@@ -3,3 +3,19 @@
     color: #EE3355;
     bottom: 12%;
 }
+
+.FixedHeightContainer
+{
+    position:absolute;
+    left: 12%;
+    top: 12%;
+    height: 65%;
+    width:75%;
+    background:#EE3355; 
+}
+.Content
+{
+    height:100%;
+    overflow:auto;
+    background:#fff;
+}
