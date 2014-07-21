@@ -1,6 +1,7 @@
 #helperfunctions
 import os
-#import markdown
+import markdown
+import codecs
 
 def return_file_years(path):
     """
@@ -13,8 +14,9 @@ def return_file_years(path):
     for root, dirs, files in os.walk(path):
         files = [f for f in files if not f[0] == '.']
         for entry in files:
-            name_year[entry] = parse_markdown_headers(
-                os.path.join(root, entry))
+            file_path = os.path.join(root, entry)
+            name_year[entry] = parse_markdown_headers(file_path)
+            name_year[entry]["md"] = return_html(file_path)
 
     return (summarize_years(name_year), name_year)
 
@@ -42,8 +44,12 @@ def summarize_years(name_year):
     return (int(temp[-1][1]["date"]) - int(temp[0][1]["date"]),  \
             int(temp[0][1]["date"]))
 
-def return_markdown(path):
+def return_html(path):
     """
+    Given an input path, return an html string of the corresponding input
+    markdown. 
     """
+    f = codecs.open(path, mode="r", encoding="utf-8")
+    return markdown.markdown(f.read(), output_format="html5")
 
-print return_file_years("./text/background/")
+#print return_html("./text/background/backg_1_sabine.txt")
