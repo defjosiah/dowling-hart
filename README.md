@@ -13,9 +13,13 @@ Flask project designed as an interactive lesson plan for HISD students focused o
 
 ###Project Contributors
 Tech - Josiah Grace
+
 Design - Cindy Xiao
+
 Content - Nathan Andrus and Claire Jensen
+
 Advisors - Dr. Elizabet Vann and Dr. Caleb McDaniel
+
 Partners - Rice University and Houston Metropolitan Research Center
 
 ###To-Do
