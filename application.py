@@ -29,7 +29,8 @@ def calculate_timeline_placement(name_year, buf):
 
     for doc, info in docs.items():
         if info["date"] != "none":
-            distance = (int(info["date"])*1.0 - min_year)/147 * (100 - buf*2) + buf
+            distance = (int(info["date"])*1.0 - min_year)/147 * \
+                (100 - buf*2) + buf
             background_temp.append( (doc, distance, info) )
 
     return sorted(background_temp, key=lambda x: x[1])
