@@ -1,17 +1,20 @@
 #helperfunctions
 import os
+#import markdown
 
 def return_file_years(path):
     """
     Loop through the files specified by the path and parse the top level
     comment, return a dictionary mapping file-name to file years. Summarize 
     the result dictionary with a count of the distance between the two years.
+    Also return a string containing the html of the given markdown file. 
     """
     name_year = {}
     for root, dirs, files in os.walk(path):
         files = [f for f in files if not f[0] == '.']
         for entry in files:
-            name_year[entry] = parse_markdown_headers(root + "/" + entry)
+            name_year[entry] = parse_markdown_headers(
+                os.path.join(root, entry))
 
     return (summarize_years(name_year), name_year)
 
@@ -39,4 +42,8 @@ def summarize_years(name_year):
     return (int(temp[-1][1]["date"]) - int(temp[0][1]["date"]),  \
             int(temp[0][1]["date"]))
 
-#print return_file_years("./text/background/")
+def return_markdown(path):
+    """
+    """
+
+print return_file_years("./text/background/")
