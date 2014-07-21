@@ -1,6 +1,6 @@
 #Dick Dowling HART Project
 
-##Flask project designed as an interactive lesson plan for HISD students focused on taking them through the history of the Dick Dowling Statue in Houston, Texas and applying historical thinking to analyze the events surrounding the statue. 
+Flask project designed as an interactive lesson plan for HISD students focused on taking them through the history of the Dick Dowling Statue in Houston, Texas and applying historical thinking to analyze the events surrounding the statue. 
 
 ##Layout
 > application.py - contains the main routing and functions used for the flask project
