@@ -9,8 +9,8 @@
     </head>
 
     <body>
-        {% for doc in items[1] %}
-            <div id="{{doc[:-4]}}", class="time_points", style="left:{{12*loop.index}}%">
+        {% for doc in items %}
+            <div id="{{doc[0][:-4]}}", class="time_points", style="left:{{doc[1]}}%">
                 <i class="fa fa-circle"></i>
             </div>
         {% endfor %}
