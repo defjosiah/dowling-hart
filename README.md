@@ -18,7 +18,7 @@ Design - Cindy Xiao
 
 Content - Nathan Andrus and Claire Jensen
 
-Advisors - Dr. Elizabet Vann and Dr. Caleb McDaniel
+Advisors - Dr. Elizabeth Vann and Dr. Caleb McDaniel
 
 Partners - Rice University and Houston Metropolitan Research Center
 
