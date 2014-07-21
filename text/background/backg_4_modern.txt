@@ -4,4 +4,4 @@
 ##Background
 Today, the statue of Dick Dowling is Houston’s oldest piece of public art. The statue stands on a median at the corner of Hermann Park, virtually inaccessible to pedestrians and with its back facing oncoming traffic. Some ask whether Dowling’s significance as a Confederate is worth questioning in the context of the artistic value of the statue, while others believe that his Confederate connections continue to outweigh other factors.
 
-<iframe width="853" height="480" src="//www.youtube.com/embed/YkiR1KjIw7k" frameborder="0" allowfullscreen></iframe>
+<iframe class="FixedHeightContainer" src="//www.youtube.com/embed/YkiR1KjIw7k" frameborder="0" allowfullscreen></iframe>
