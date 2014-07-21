@@ -14,6 +14,8 @@
     </head>
 
     <body>
+        <div class="opaque">
+        </div>
         {% for doc in items %}
             <div id="{{doc[0][:-4]}}", class="time_points", style="left:{{doc[1]}}%">
                 <a class="clickable-item" href="#"><i class="fa fa-circle"></i>&nbsp; {{doc[2]["date"]}} </a>

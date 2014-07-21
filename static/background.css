@@ -1,3 +1,21 @@
+a {
+    text-decoration: none;
+    color: #EE3355;
+}
+
+.opaque {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("./images/sept8battle.jpeg");
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+}
+
 .time_points {
     position: absolute;
     color: #EE3355;
@@ -10,21 +28,16 @@
     top: 6%;
     height: 70%;
     width:75%;
-    background:#EE3355; 
+
 }
 .Content {
     height:100%;
     overflow:auto;
-    background:#fff;
+    background-color:rgba(87, 86, 85, .8); 
 }
 
 .FixedHeightWidth {
     position:centered;
     height: 70%;
     width:75%;
-}
-
-a {
-    text-decoration: none;
-    color: #EE3355;
 }
