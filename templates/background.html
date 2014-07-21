@@ -16,15 +16,28 @@
     <body>
         {% for doc in items %}
             <div id="{{doc[0][:-4]}}", class="time_points", style="left:{{doc[1]}}%">
-                <i class="fa fa-circle"></i> {{doc[2]["date"]}}
+                <a class="clickable-item" href="#"><i class="fa fa-circle"></i>&nbsp; {{doc[2]["date"]}} </a>
             </div>
         
-        <div class="FixedHeightContainer">
+        <div class="FixedHeightContainer", id="{{doc[0][:-4]}}cont">
           <div class="Content">
                 {{ doc[2]["md"]|safe }}
           </div>
         </div>
+
         {% endfor %}
+
+
+        <script>
+        $(document).ready(function(){
+            $(".FixedHeightContainer").hide();
+        });
+
+        $(".clickable-item").click(function(){
+            $(".FixedHeightContainer").hide();  
+            $("#" + this.parentNode.id + "cont").show();
+        });
+        </script>
 
     </body>
 </html>

@@ -23,3 +23,8 @@
     height: 70%;
     width:75%;
 }
+
+a {
+    text-decoration: none;
+    color: #EE3355;
+}
