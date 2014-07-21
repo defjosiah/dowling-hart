@@ -11,7 +11,7 @@
     <body>
         {% for doc in items %}
             <div id="{{doc[0][:-4]}}", class="time_points", style="left:{{doc[1]}}%">
-                <i class="fa fa-circle"></i>
+                <i class="fa fa-circle"></i> {{doc[2]["date"]}}
             </div>
         
         <div class="FixedHeightContainer">
