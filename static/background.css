@@ -1,25 +1,5 @@
-#backg_2_chall {
-    position:absolute;
+.time_points {
+    position: absolute;
+    color: #EE3355;
     bottom: 12%;
-    left: 12%;
-}
-#backg_0_introd {
-    position:absolute;
-    bottom: 12%;
-    left: 24%;
-}
-#backg_1_sabine {
-    position:absolute;
-    bottom: 12%;
-    left: 36%;
-}
-#backg_3_civil {
-    position:absolute;
-    bottom: 12%;
-    left: 48%;
-}
-#backg_4_modern {
-    position:absolute;
-    bottom: 12%;
-    left: 60%;
 }
