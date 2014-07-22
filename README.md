@@ -16,7 +16,7 @@ Tech - Josiah Grace
 
 Design - Cindy Xiao
 
-Content - Nathan Andrus and Claire Jensen
+Content - Nathan Andrus and Clare Jensen
 
 Advisors - Dr. Elizabeth Vann and Dr. Caleb McDaniel
 
