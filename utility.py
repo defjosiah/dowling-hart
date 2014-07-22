@@ -39,7 +39,7 @@ def summarize_years(name_year):
     name to year dictionary. And the year of the bottom entry. 
     """
     temp = sorted([f for f in name_year.items() \
-        if not f[1]["date"] == "none"])
+        if not f[1]["date"] == "none"], key=lambda x: int(x[1]["date"]))
 
     return (int(temp[-1][1]["date"]) - int(temp[0][1]["date"]),  \
             int(temp[0][1]["date"]))
