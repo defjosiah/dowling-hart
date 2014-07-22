@@ -1,14 +1,12 @@
-<!-- author:Clare Jensen, date:1939 -->
-#City Hall/ Movement of the Statue
+<!-- author:Clare Jensen, date:1861 -->
+#Civil War begins with assault on Fort Sumter
  
 ##Background
-Dick Dowling was celebrated as a great hero by Houston immediately following
-the war and his death short after. The statue made in his honor, unveiled in
-1905, is Houston’s oldest piece of public art, and the statue was at first
-located in the prominent position in front of City Hall. However, in 1939 the
-statue was moved to Sam Houston Park because City Hall was moved. It was then
-placed in storage in 1957 before being tucked away in a somewhat obscure
-corner of Hermann Park the next year, where it still stands today.
-What does the movement of the statue, from City Hall to Sam Houston Park to
-storage to a remote corner of Hermann Park, indicate about how the memory of
-Dowling has changed?
+The Civil War erupted in **1861**, but the tensions that fueled the conflict had been building for a long time before the election of Abraham Lincoln. Economic, political, and cultural differences between the North and South, especially on the issue of slavery, grew increasingly drastic, until the differences had grown so great that Southern states felt compelled to secede.
+
+Dowling enlisted in the Davis Guards of the Confederacy in **August 1861**. Almost everyone in the Davis Guards was Irish. They played an important role in recapturing Galveston from the Union in **January 1863**, but their claim to fame came later that year.
+       	
+On **September 8, 1863**, Dowling, leading his Davis Guards, won a remarkable victory for the Confederacy against superior Union numbers in the Battle of Sabine Pass. The victory at the border of Texas and Louisiana prevented the Union army from entering Texas until much later in the war. Following the battle, Dowling and his troops were acclaimed throughout the Confederacy.
+
+The war ended on **April 9, 1865**, with Robert E. Lee's surrender to Ulysses S. Grant at Appomattox Court House. Dowling died only 2 years later on **September 23, 1867**, but his legacy lived on in the South. 
+
