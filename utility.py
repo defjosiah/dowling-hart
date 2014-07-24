@@ -3,11 +3,28 @@ import os
 import markdown
 import codecs
 
+class UtilityFunc:
+    """
+    This is a blanket class that will be used for smart generation and
+    computation, e.g. only generating the name_year object when it has 
+    changes, etc. It is mostly flags and "generate" methods that will
+    call the methods contained in the utility class outside of this 
+    UtilityFunc 
+    """
+
+    def __init__(self):
+        self.template_render = None
+        self.name_year = None
+
+    def generate_file_years(self, path):
+        self.name_year = return_file_years(path)
+
 def return_file_years(path):
     """
     Loop through the files specified by the path and parse the top level
-    comment, return a dictionary mapping file-name to file years. Summarize 
-    the result dictionary with a count of the distance between the two years.
+    comment, return a dictionary mapping file-name to file years.
+    Summarize the result dictionary with a count of the distance between
+    the two years.
     Also return a string containing the html of the given markdown file. 
     """
     name_year = {}
@@ -35,8 +52,8 @@ def parse_markdown_headers(path):
 
 def summarize_years(name_year):
     """
-    Return the number of years between the bottom and top entry in the input
-    name to year dictionary. And the year of the bottom entry. 
+    Return the number of years between the bottom and top entry in the
+    input name to year dictionary. And the year of the bottom entry. 
     """
     temp = sorted([f for f in name_year.items() \
         if not f[1]["date"] == "none"], key=lambda x: int(x[1]["date"]))
