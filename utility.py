@@ -2,6 +2,8 @@
 import os
 import markdown
 import codecs
+from flask import render_template
+from jinja2 import Template
 
 class UtilityFunc:
     """
@@ -64,10 +66,21 @@ def summarize_years(name_year):
 def return_html(path):
     """
     Given an input path, return an html string of the corresponding input
-    markdown. 
+    markdown. Also use jinja macro to process figures in the text.
     """
     f = codecs.open(path, mode="r", encoding="utf-8")
-    return markdown.markdown(f.read(), output_format="html5", 
-                                safe_mode=False)
+    html = markdown.markdown(f.read(), output_format="html5", safe_mode=False)
+    t = Template("""
+      {% macro figure(src, caption) -%}
+      <figure class="cap-top">
+	      <a href="{{ src }}">
+             <img src="{{ src }}" alt="{{ caption }}">
+		  </a>
+      <figcaption>
+          {{ caption }}
+      </figcaption>
+      </figure>
+      {%- endmacro %}
+	  """ + html)
+    return t.render()
 
-#print return_html("./text/background/backg_1_sabine.txt")
