@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "<a href='/background/'>Background</a>"
+    return "<a href='/background/'>Index to Background</a>"
 
 @app.route('/background/')
 def background():
@@ -15,6 +15,12 @@ def background():
                     return_file_years("./text/background"), 10)
     return render_template('background.html', items=name_year)
 
+@app.route('/explore/')
+def explore():
+    return "<a href='/background/'>Explore to Background</a>"
+
+
+## Helper Functions ##
 def calculate_timeline_placement(name_year, buf):
     """
     Calculate the individual placement of each of the timeline circles using
