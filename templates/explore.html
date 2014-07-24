@@ -1,11 +1,34 @@
-{%extends "background.html"%}
+<html>
 
-<body>
+    <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <title id='title'>Explore</title>
 
-    {% for doc in items %}
-        <div id="{{doc[0][:-4]}}", class="time_points", style="left:{{doc[1]}}%">
-            <a class="clickable-item" href="#"><i class="fa fa-circle"></i>&nbsp; {{doc[2]["date"]}} </a>
-        </div>
-    {% endfor %}
+            <!--Font awesome CDN -->
+            <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="/static/css/explore.css" type="text/css" media="all" />
 
-</body>
+            <!--JQuery CDN -->
+            <script src="//code.jquery.com/jquery-1.11.0.min.js">
+            </script>
+
+            <!-- Open Sans -->
+            <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+            <!-- Volkorn for headings -->
+            <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+
+            <!-- Fira Sans for body and h2 -->
+            <link href='http://fonts.googleapis.com/css?family=Fira+Sans:400,500,400italic' rel='stylesheet' type='text/css'>
+
+        </head>
+    <body>
+
+        {% for doc in items %}
+            <div id="{{doc[0][:-4]}}", class="time_points", style="left:{{doc[1]}}%">
+                <a class="clickable-item" href="#"><i class="fa fa-circle"></i>&nbsp; {{doc[2]["date"]}} </a>
+            </div>
+        {% endfor %}
+
+    </body>
+</html>

@@ -1,0 +1,69 @@
+a {
+    text-decoration: none;
+    color: #EE3355;
+}
+
+.opaque {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../images/sept8battle.jpeg");
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+}
+
+.time_points {
+    position: absolute;
+    color: #EE3355;
+    bottom: 12%;
+}
+
+.FixedHeightContainer {
+    position:absolute;
+    left: 12%;
+    top: 6%;
+    height: 70%;
+    width:75%;
+}
+
+.Content {
+    height:100%;
+    overflow:auto;
+    background-color:rgba(87, 86, 85, .8); 
+    color: white;
+}
+
+.Content h1,h2,p {
+    margin: 10px;
+}
+
+.Content h1 {
+    font-family: "Vollkorn";
+    font-size: 2.75em;
+    border-bottom: 0.1em solid #EE3355;
+}
+
+.Content h2 {
+    font-family: "Fira Sans";
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.Content p {
+    font-family: "Fira Sans";
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+.FixedHeightWidth {
+    position:centered;
+    height: 70%;
+    width:75%;
+}
+
+
