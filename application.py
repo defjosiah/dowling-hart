@@ -28,7 +28,14 @@ def background():
 
 @app.route('/explore/')
 def explore():
-    return render_template('explore.html', items=name_year)
+    if util.template_render == None:
+     util.generate_file_years("./text/background")
+     util.template_render = calculate_timeline_placement(
+                                util.name_year, 10)
+     return render_template('explore.html', items=util.template_render)
+
+    else:
+        return render_template('explore.html', items=util.template_render)
 
 
 ## Helper Functions ##
