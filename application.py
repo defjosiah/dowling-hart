@@ -1,9 +1,10 @@
 import os
-from utility import return_file_years
+import utility
 from flask import Flask
 from flask import render_template
 
 app = Flask(__name__)
+util = utility.UtilityFunc()
 
 @app.route('/')
 def index():
@@ -11,13 +12,23 @@ def index():
 
 @app.route('/background/')
 def background():
-    name_year = calculate_timeline_placement( 
-                    return_file_years("./text/background"), 10)
-    return render_template('background.html', items=name_year)
+    
+    if util.template_render == None:
+         util.generate_file_years("./text/background")
+         util.template_render = calculate_timeline_placement(
+                                    util.name_year, 10)
+         return render_template('background.html', items=util.template_render)
+
+    else:
+        return render_template('background.html', items=util.template_render)
+        #calculate_timeline_placement( 
+        #                return_file_years("./text/background"), 10)
+        
+    #return render_template('background.html', items=name_year)
 
 @app.route('/explore/')
 def explore():
-    return "<a href='/background/'>Explore to Background</a>"
+    return render_template('explore.html', items=name_year)
 
 
 ## Helper Functions ##
