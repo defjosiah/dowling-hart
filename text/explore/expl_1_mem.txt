@@ -33,7 +33,6 @@ gallant: brave, courageous
 <mc 
 The speaker thinks that: 
 
-
 a. The Union should have won the war
 
 b. The Battle of Sabine Pass should be forgotten
