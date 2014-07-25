@@ -21,10 +21,6 @@ def background():
 
     else:
         return render_template('background.html', items=util.template_render)
-        #calculate_timeline_placement( 
-        #                return_file_years("./text/background"), 10)
-        
-    #return render_template('background.html', items=name_year)
 
 @app.route('/explore/')
 def explore():
