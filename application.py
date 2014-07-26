@@ -12,15 +12,8 @@ def index():
 
 @app.route('/background/')
 def background():
-    
-    if util.backg_render == None:
-         util.generate_file_years("./text/background", "backg")
-         util.backg_render = calculate_timeline_placement(
-                                    util.backg_struct, 10)
-         return render_template('background.html', items=util.backg_render)
-
-    else:
-        return render_template('background.html', items=util.backg_render)
+    return render_template('background.html', 
+                            items=build_background_timeline())
 
 @app.route('/explore/')
 def explore():
@@ -43,6 +36,19 @@ def explore():
 
 
 ## Helper Functions ##
+def build_background_timeline():
+    """
+    Generate the object to render for the background template. 
+    """
+    if util.backg_render == None:
+        util.generate_file_years("./text/background", "backg")
+        util.backg_render = calculate_timeline_placement(
+                                util.backg_struct, 10)
+
+    return util.backg_render
+
+
+
 def calculate_timeline_placement(name_year, buf):
     """
     Calculate the individual placement of each of the timeline circles using
