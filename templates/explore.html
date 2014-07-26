@@ -32,5 +32,12 @@
             </div>
         {% endfor %}
 
+        {% for doc in items[0] %}
+            <div id="{{doc[0][:-4]}}", class="question_points", style="left:{{doc[1]}}%">
+                <a class="clickable-item" href="#"><i class="fa fa-circle-o"></i>&nbsp; {{doc[2]["date"]}} </a>
+            </div>
+        {% endfor %}
+
+
     </body>
 </html>
