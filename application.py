@@ -12,28 +12,17 @@ def index():
 
 @app.route('/background/')
 def background():
+    build_background_timeline()
     return render_template('background.html', 
-                            items=build_background_timeline())
+                            items=util.backg_render)
 
 @app.route('/explore/')
 def explore():
-    #If they navigate to explore before background
-    if util.backg_render == None:
-        util.generate_file_years("./text/background", "backg")
-        util.backg_render = calculate_timeline_placement(
-                                util.backg_struct, 10)
-
+    build_background_timeline()
+    build_explore_timeline()
     #if explore hasn't been generated yet
-    if util.expl_render == None:
-        util.generate_file_years("./text/explore", "expl")
-        print util.expl_struct
-        util.expl_render = calculate_timeline_placement(
-                            util.expl_struct, 10)
-        return render_template('explore.html', items=util.expl_render)
-
-    else:
-        return render_template('explore.html', items=util.expl_render)
-
+    return render_template('explore.html',
+                        items=(util.expl_render, util.backg_render))
 
 ## Helper Functions ##
 def build_background_timeline():
@@ -45,8 +34,11 @@ def build_background_timeline():
         util.backg_render = calculate_timeline_placement(
                                 util.backg_struct, 10)
 
-    return util.backg_render
-
+def build_explore_timeline():
+    if util.expl_render == None:
+        util.generate_file_years("./text/explore", "expl")
+        util.expl_render = calculate_timeline_placement(
+                            util.expl_struct, 10)
 
 
 def calculate_timeline_placement(name_year, buf):
