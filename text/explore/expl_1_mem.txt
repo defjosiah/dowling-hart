@@ -1,4 +1,4 @@
-<!-- author:Clare Jensen, date:1905, mc:d -->
+<!-- author:Clare Jensen, date:1882, mc:d -->
 
 <text 
 #Memory after the War
@@ -40,9 +40,8 @@ b. The Battle of Sabine Pass should be forgotten
 c. Mud forts are the best defense
 
 d. The Battle of Sabine Pass should be remembered
+
+tip: Have you considered that the speaker called Dowling brave for winning the
+battle despite being outnumbered? 
 >
 
-<tip 
-Have you considered that the speaker called Dowling brave for winning the
-battle despite being outnumbered? 
-> 
