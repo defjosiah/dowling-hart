@@ -77,24 +77,50 @@ def summarize_years(name_year):
 def return_html(path, mc):
     """
     Given an input path, return an html string of the corresponding input
-    markdown. Also use jinja macro to process figures in the text.
+    markdown. Also use jinja macro to process figures in the text. If it is
+    background text, return the html of the input markdown. If it is explore
+    text, return a dictionary mapping "<key" to html rendered as markdown. 
     """
     f = codecs.open(path, mode="r", encoding="utf-8")
-    html = markdown.markdown(f.read(), output_format="html5", safe_mode=False)
- 
-    t = Template("""
-      {% macro figure(src, caption) -%}
-      <figure class="cap-top">
-	      <a href="{{ src }}">
-             <img src="{{ src }}" alt="{{ caption }}">
-		  </a>
-      <figcaption>
-          {{ caption }}
-      </figcaption>
-      </figure>
-      {%- endmacro %}
-	  """ + html)
 
-    return t.render()
+    if mc == "none":
+        html = markdown.markdown(f.read(), output_format="html5",
+                                    safe_mode=False)
+     
+        t = Template("""
+          {% macro figure(src, caption) -%}
+          <figure class="cap-top">
+    	      <a href="{{ src }}">
+                 <img src="{{ src }}" alt="{{ caption }}">
+    		  </a>
+          <figcaption>
+              {{ caption }}
+          </figcaption>
+          </figure>
+          {%- endmacro %}
+    	  """ + html)
+        return t.render()
+    else:
+        temp_dict = {}
+        ind = False
+        curr = ""
+        #f.readline() #skip html comment at the beginning
+        for line in f.readlines():
+            if line[0] == "<" and line[1] != "!": #ignore html
+                curr = line[1::].rstrip()
+                temp_dict[curr] = ""
+            elif curr != "":
+                temp_dict[curr] += line
+            else:
+                continue
+
+        a = dict(tuple(map(lambda x: (x[0], markdown.markdown(x[1], 
+                                    output_format="html5",
+                                    safe_mode=False) ), 
+                                    temp_dict.items())))
+        print a["text"]
+        print a["glossary"]
+        print a["mc"]
+        return a
 
 
