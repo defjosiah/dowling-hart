@@ -33,13 +33,13 @@ gallant: brave, courageous
 <mc 
 The speaker thinks that: 
 
-a. The Union should have won the war
+1. The Union should have won the war
 
-b. The Battle of Sabine Pass should be forgotten
+2. The Battle of Sabine Pass should be forgotten
 
-c. Mud forts are the best defense
+3. Mud forts are the best defense
 
-d. The Battle of Sabine Pass should be remembered
+4. The Battle of Sabine Pass should be remembered
 
 tip: Have you considered that the speaker called Dowling brave for winning the
 battle despite being outnumbered? 

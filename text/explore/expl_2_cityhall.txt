@@ -44,25 +44,25 @@ thronged: full/jam-packed
 <mc 
 ##The importance of the statue is indicated by which of the following:
 
-a. the government officials
+1. the government officials
 
-b. the location of the statue at city hall
+2. the location of the statue at city hall
 
-c. the number of people participating in the parade
+3. the number of people participating in the parade
 
-d. all of the above
+4. all of the above
 
 tip: Have you considered the size of the event and the parade’s destination?
 
 ##The bright colors and size of the crowd indicate that Houstonians at the time thought Dick Dowling was a:
 
-a. monster for helping the Confederacy
+1. monster for helping the Confederacy
 
-b. hero
+2. hero
 
-c. unimportant
+3. unimportant
 
-d. successful politician
+4. successful politician
 
 tip: Have you considered how happy the event is portrayed? 
 >
