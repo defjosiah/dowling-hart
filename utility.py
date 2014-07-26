@@ -15,11 +15,21 @@ class UtilityFunc:
     """
 
     def __init__(self):
-        self.template_render = None
-        self.name_year = None
+        #background render and info
+        self.backg_render = None
+        self.backg_struct = None
 
-    def generate_file_years(self, path):
-        self.name_year = return_file_years(path)
+        #explore render and info
+        self.expl_render = None
+        self.expl_struct = None
+
+    def generate_file_years(self, path, page):
+        if page == "backg":
+            self.backg_struct = return_file_years(path)
+        elif page == "expl":
+            self.expl_struct = return_file_years(path)
+        else:
+            print "error, error, error"
 
 def return_file_years(path):
     """
@@ -35,7 +45,8 @@ def return_file_years(path):
         for entry in files:
             file_path = os.path.join(root, entry)
             name_year[entry] = parse_markdown_headers(file_path)
-            name_year[entry]["md"] = return_html(file_path)
+            name_year[entry]["md"] = return_html(
+                                        file_path, name_year[entry]["mc"])
 
     return (summarize_years(name_year), name_year)
 
@@ -63,13 +74,14 @@ def summarize_years(name_year):
     return (int(temp[-1][1]["date"]) - int(temp[0][1]["date"]),  \
             int(temp[0][1]["date"]))
 
-def return_html(path):
+def return_html(path, mc):
     """
     Given an input path, return an html string of the corresponding input
     markdown. Also use jinja macro to process figures in the text.
     """
     f = codecs.open(path, mode="r", encoding="utf-8")
     html = markdown.markdown(f.read(), output_format="html5", safe_mode=False)
+ 
     t = Template("""
       {% macro figure(src, caption) -%}
       <figure class="cap-top">
@@ -82,6 +94,7 @@ def return_html(path):
       </figure>
       {%- endmacro %}
 	  """ + html)
+
     return t.render()
 
 
