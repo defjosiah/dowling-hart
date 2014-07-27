@@ -6,6 +6,6 @@ Richard "Dick" W. Dowling was born in Tuam, Ireland, in **1837**. He immigrated 
 
 ##Pictures
 
-{{ figure(src="http://exhibits.library.rice.edu/files/fullsize/dowling_ea27d8f322.jpg", caption="This 1866 painting presents Dick Dowling primarily as a Confederate military hero, instead of as a Houston businessman.") }}
+{{ figure(caption="This 1866 painting presents Dick Dowling primarily as a Confederate military hero, instead of as a Houston businessman.", src="http://exhibits.library.rice.edu/files/fullsize/dowling_ea27d8f322.jpg") }}
 
-{{ figure(src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Dick_Dowling_Plaque_Tuam.JPG/494px-Dick_Dowling_Plaque_Tuam.JPG", caption="A plaque in Dowling's hometown in County Tuam, Ireland, mentions his business successes as well as his role in the Civil War.") }}
+{{ figure(caption="A plaque in Dowling's hometown in County Tuam, Ireland, mentions his business successes as well as his role in the Civil War.", src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Dick_Dowling_Plaque_Tuam.JPG/494px-Dick_Dowling_Plaque_Tuam.JPG") }}
