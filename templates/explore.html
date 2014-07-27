@@ -8,8 +8,8 @@
             <link rel="stylesheet" href="/static/css/explore.css" type="text/css" media="all" />
 
             <!--JQuery CDN -->
-            <script src="//code.jquery.com/jquery-1.11.0.min.js">
-            </script>
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
 
             <!-- Open Sans -->
             <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -35,6 +35,10 @@
             <div id="{{doc[0][:-4]}}mc", class="question_points", style="left:{{doc[1]}}%">
                 <a class="clickable-item" href="#"><i class="fa fa-circle-o"></i>&nbsp; {{doc[2]["date"]}} </a>
             </div>
+        
+
+
+
         {% endfor %}
 
     </body>
