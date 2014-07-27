@@ -24,3 +24,13 @@ Partners - Rice University and Houston Metropolitan Research Center
 
 ###To-Do
 Switch utility functions to a utility class, store lots of local variables, will also make it easier to efficiently reload
+
+###Colors
+Color | C | M | Y | K | 
+------|---|---|---|---|
+pink |  0 | 3  |8  |6 | 
+light red | 8 |82 |64 |0 |
+burgundy | 29 |93 | 84 | 30 |
+charcoal | 63 | 56  |55  | 31 |
+gray | 36 |29 |29 |0 |
+blue | 91 |80 |43 |40 |
