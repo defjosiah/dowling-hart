@@ -88,7 +88,7 @@ def return_html(path, mc):
                                     safe_mode=False)
      
         t = Template("""
-          {% macro figure(src, caption) -%}
+          {% macro figure(caption, src) -%}
           <figure class="cap-top">
     	      <a href="{{ src }}">
                  <img src="{{ src }}" alt="{{ caption }}">
