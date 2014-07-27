@@ -118,9 +118,6 @@ def return_html(path, mc):
                                     output_format="html5",
                                     safe_mode=False) ), 
                                     temp_dict.items())))
-        print a["text"]
-        print a["glossary"]
-        print a["mc"]
         return a
 
 
