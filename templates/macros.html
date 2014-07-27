@@ -1,0 +1,10 @@
+{% macro figure(caption, src) -%}
+          <figure class="cap-top">
+              <a href="{{ src }}">
+                 <img src="{{ src }}" alt="{{ caption }}">
+              </a>
+          <figcaption>
+              {{ caption }}
+          </figcaption>
+          </figure>
+{%- endmacro %}
