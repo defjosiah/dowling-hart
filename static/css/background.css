@@ -22,6 +22,12 @@ a {
     bottom: 12%;
 }
 
+.time_points {
+    position: absolute;
+    color: #000;
+    bottom: 16%;
+}
+
 .FixedHeightContainer {
     position:absolute;
     left: 12%;
