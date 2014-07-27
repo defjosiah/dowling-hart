@@ -18,8 +18,12 @@ a {
 
 .time_points {
     position: absolute;
-    color: #EE3355;
     bottom: 12%;
+}
+
+.question_points {
+    position: absolute;
+    bottom: 16%;
 }
 
 .FixedHeightContainer {

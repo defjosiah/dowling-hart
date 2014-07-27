@@ -25,12 +25,19 @@
     <body>
 
         <div class="opaque"></div>
-        
-        {% for doc in items %}
+
+        {% for doc in items[1] %}
             <div id="{{doc[0][:-4]}}", class="time_points", style="left:{{doc[1]}}%">
                 <a class="clickable-item" href="#"><i class="fa fa-circle"></i>&nbsp; {{doc[2]["date"]}} </a>
             </div>
         {% endfor %}
+
+        {% for doc in items[0] %}
+            <div id="{{doc[0][:-4]}}", class="question_points", style="left:{{doc[1]}}%">
+                <a class="clickable-item" href="#"><i class="fa fa-circle-o"></i>&nbsp; {{doc[2]["date"]}} </a>
+            </div>
+        {% endfor %}
+
 
     </body>
 </html>
