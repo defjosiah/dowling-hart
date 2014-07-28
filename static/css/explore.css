@@ -64,12 +64,15 @@ a {
 
 #ContentInit {
     background-color:rgba(87, 86, 85, .8);
+    overflow: none;
 }
 
 .Content {
     height:100%;
     color: white;
+    overflow: auto;
 }
+
 
 #ContentText {
     background-color:rgba(87, 86, 85, .8); 
@@ -78,7 +81,7 @@ a {
 
 #ContentMC {
     background-color:rgba(255, 255, 255, 0.8); 
-    color: red;
+    color: #EE3355;
 }
 
 .Content h1,h2,h3,p {

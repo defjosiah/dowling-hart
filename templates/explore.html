@@ -26,14 +26,12 @@
         <div class="opaque"></div>
 
         {% for position, docs in solution %}
-
             <div id="{{docs[0][5]}}{{docs[1][5]}}" class="sol-box" style="left:{{position - 25 | round}}%"></div>
-
         {% endfor %}
 
 
         {% for doc in items[1] %}
-            <div id="{{doc[0][:-4]}}", class="time_points", style="left:{{doc[1]}}%">
+            <div class="time_points", style="left:{{doc[1]}}%">
                 <a class="clickable-item" href="#"><i class="fa fa-circle"></i>&nbsp; {{doc[2]["date"]}} </a>
             </div>
         {% endfor %}
@@ -45,9 +43,7 @@
                 <h1>Document Exploration! </h1> 
                 <h3>{{directions | safe}}</h3> 
                 {% for doc in items[0] %}
-                    <a class="clickable-doc", href="#">
-                        <img src="../static/images/explore/{{doc[0][:-4]}}.jpg" alt="{{doc[0][:-4]}}.jpg" style="left:{{loop.index*7.5}}%">
-                    </a>
+                    <img class="clickable-doc" id = "{{doc[0][:-4]}}" src="../static/images/explore/{{doc[0][:-4]}}.jpg" alt="{{doc[0][:-4]}}.jpg" style="left:{{loop.index*7.5}}%">
                 {% endfor %}
             </div>
         </div>
@@ -56,19 +52,19 @@
             <!-- Use document names to refer to the matching .jpg documents -->
             <!-- in the static/images/explore folder for first view -->
 
-            <div id="{{doc[0][:-4]}}mc", class="question_points", style="left:{{doc[1]}}%">
+            <div id="{{doc[0][:-4]}}mcpoints", class="question_points", style="left:{{doc[1]}}%">
                 <a class="clickable-item" href="#"><i class="fa fa-circle-o"></i>&nbsp; {{doc[2]["date"]}} </a>
             </div>
 
             <!-- Build the separate panes for mc and document views -->
-            <div class="FixedHeightContainerText", id="{{doc[0][:-4]}}docs">
+            <div class="FixedHeightContainerText", id="{{doc[0][:-4]}}text">
                 <div class="Content", id="ContentText">
                     {{ doc[2]["md"]["text"] | safe }}
                     {{ doc[2]["md"]["glossary"] | safe }}
                 </div>
             </div>
         
-            <div class="FixedHeightContainerMC", id="{{doc[0][:-4]}}docs">
+            <div class="FixedHeightContainerMC", id="{{doc[0][:-4]}}mc">
                 <div class="Content", id="ContentMC">
                     {{ doc[2]["md"]["mc"] | safe }}
                 </div>
@@ -83,23 +79,33 @@
         });
 
         $(".clickable-doc").click(function(){
-            $('.clickable-doc').draggable( {
-                containment:'window',
-                stack: '.clickable-doc',
-                revert: true,
-                appendTo: 'body'
-            });
-            $('.sol-box').droppable( {
-                drop: handleDropEvent,
-                accept: ".clickable-doc",
-                tolerance: "touch"
-            });
+            $(".FixedHeightContainerText").hide();
+            $(".FixedHeightContainerMC").hide();
+            $("#initial_view").hide();
+            $("#" + this.id + "text").show();
+            $("#" + this.id + "mc").show();
+
+            // $('.clickable-doc').draggable( {
+            //     containment:'window',
+            //     stack: '.clickable-doc',
+            //     revert: true,
+            //     appendTo: 'body'
+            // });
+            // $('.sol-box').droppable( {
+            //     drop: handleDropEvent,
+            //     accept: ".clickable-doc",
+            //     tolerance: "touch"
+            // });
             //$(".FixedHeightContainerInit").hide();
             //$("#" + this.parentNode.id + "cont").show();
         });
 
         function handleDropEvent( event, ui ) {
             alert("lol");
+        }
+
+        function handleDoc( input ) {
+
         }
         </script>
 
