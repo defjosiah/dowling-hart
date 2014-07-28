@@ -7,6 +7,7 @@
 ##The Houston Chronicle
 
 **Text**
+
 The cavalcade* that passed in review down the streets of Houston this 
 afternoon was gay* with color. Ladies and gentlemen in carriages, uniformed
 troops, flags, bright gowns and streamers completed the arrangement.
@@ -34,10 +35,15 @@ the occasion.
 
 <glossary
 cavalcade: parade
+
 gay: happy
+
 auxiliary: people associated with an organization
+
 Ancient Order of Hibernians: specific organization of Irish Catholics 
+
 traversed: travelled
+
 thronged: full/jam-packed
 >
 

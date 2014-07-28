@@ -6,6 +6,7 @@
 ##Jefferson Davis’s 1882 speech in New Orleans.
 
 **Text**
+
 There are few in this audience who, if I asked them, could tell me who
 commanded at Sabine Pass. And yet, that battle of Sabine Pass was more
 remarkable than the battle of Thermopylae*, and when it has orators* and poets
@@ -20,13 +21,21 @@ said: "We will never retire!""
 
 <glossary
 battle of Thermopylae: conflict in ancient Greece famous for its overwhelming odds
+
 orator: a person who gives a speech
+
 disparity: inequality or difference
+
 iron-clad: a boat covered in iron plates or armor
+
 field guns: smaller guns that are easily moved
+
 armament: the weapons and equipment for defense
+
 held them in check: restrained them
+
 retire: retreat, withdraw
+
 gallant: brave, courageous
 >
 
