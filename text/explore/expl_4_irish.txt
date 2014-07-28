@@ -1,0 +1,39 @@
+<!-- author:Clare Jensen, date:1997, mc:bb -->
+
+<text
+#Irish Heritage
+
+##Dr. Claffey's Speech
+
+**Text**
+
+Today we are assembled beneath the statue of a hero [Dowling] with the shamrock at his feet and a roll of honour bearing names one would expect to find on a patriots’ memorial in Ireland. This is a good place to remember St Patrick not just for the geographical facts of his life but to recall that Patrick was Irish by adoption rather than birth; that he started in Ireland on the lowest rung of the ladder, in fact as a slave, that eventually by the quality of his life he won the hearts of his contemporaries*; that he had a dream - a dream about the brotherhood of man. In short Patrick does not belong to the Ireland of the past but to the world-wide Irish diaspora* of the present. And his spirit is reflected in this memorial, for Dick Dowling is one of Patrick’s and Ireland’s illustrious* sons of whom Houston and Tuam* are justly proud.
+>
+
+<glossary
+
+contemporaries: people belonging to the same time period as each other 
+
+diaspora: an ethnic group that migrated all over the world from its native homeland
+
+illustrious: famous/distinguished/outstanding
+
+Tuam: the town in Ireland where Dick Dowling was born
+>
+
+<mc
+
+##Which part of Dowling’s life does the speaker not mention?
+1. Living in Houston
+2. Fighting for the Confederacy
+3. Being born in Ireland
+4. both a and c
+Tip: The speaker calls Dowling a son of what?
+
+Given the focus of the document, who is the speaker most likely to be? 
+1. a member of the United Daughters of the Confederacy
+2. an Irish historian
+3. an African American civil rights activist
+4. the sculptor of the statue
+Tip: Have you considered the emphasis on Dowling’s ethnic heritage?
+>
