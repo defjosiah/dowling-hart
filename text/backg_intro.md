@@ -1,4 +1,3 @@
-<!-- author:Caleb McDaniel, mc:none -->
 
 # Click the years on the timeline below to learn more about Dick Dowling.
 
