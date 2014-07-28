@@ -26,6 +26,8 @@
         <!-- Selector for background image -->
         <div class="opaque"></div>
 
+        <div id="continue"><a href="/explore/" alt="Continue to next section" title="Continue to next section"><i class="fa fa-arrow-circle-right fa-5x"></i></a></div>
+
 		<div class="FixedHeightAlert" id="intro" style="text-align: center">
 		  <div class="Content">
 		     {{ intro|safe }}
@@ -56,16 +58,25 @@
 			<div class="timeline" style="right:89%; left:1px"></div>
 
         <script>
+
         $(document).ready(function(){
             $(".FixedHeightContainer").hide();
             $("#intro").show();
+            $("#continue").hide();    
         });
 
         $(".clickable-item").click(function(){
             $(".FixedHeightContainer").hide();  
-            $("#intro").hide()
+            $("#intro").hide();
+            $(this).addClass('clicked');
+            if ($(".clicked").length == $(".FixedHeightContainer").length) {
+                $("#continue").show();
+            } else {
+                $("#continue").hide();    
+            }
             $("#" + this.parentNode.id + "cont").show();
         });
+
         </script>
         
     </body>
