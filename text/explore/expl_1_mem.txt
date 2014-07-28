@@ -34,9 +34,9 @@ armament: the weapons and equipment for defense
 
 held them in check: restrained them
 
-retire: retreat, withdraw
+retire: retreat or withdraw
 
-gallant: brave, courageous
+gallant: brave or courageous
 >
 
 <mc 
@@ -46,20 +46,23 @@ gallant: brave, courageous
 
 2. The Battle of Sabine Pass should be forgotten
 
-3. Mud forts are the best defense
+3. Mud forts are the best defenses
 
 4. The Battle of Sabine Pass should be remembered
 
-tip: Have you considered that the speaker called Dowling brave for winning the
-battle despite being outnumbered? 
+tip: Have you considered that the speaker believes that the Battle of Sabine Pass is more remarkable than the Battle of Thermopylae?
 
 ##The speaker’s opinion of Dick Dowling is that he was
 
-1. a hero for winning the Battle of Sabine Pass
+1. A hero for winning the Battle of Sabine Pass
 
-2. important to the victory at Thermopylae
+2. Important to the victory at Thermopylae
 
-3. was a coward
+3. A coward
 
-4. more famous than he should be
+4. More famous than he should be
+
+tip: Have you considered that the speaker called Dowling brave for winning the
+battle despite being outnumbered?
+
 >
