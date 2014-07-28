@@ -73,10 +73,13 @@
         $(document).ready(function(){
             $(".FixedHeightContainerText").hide();
             $(".FixedHeightContainerMC").hide();
+            $('.clickable-doc').draggable( {
+                containment:'window',
+                stack: '.clickable-doc'
+            });
         });
 
         $(".clickable-doc").click(function(){
-            alert(this);
             //$(".FixedHeightContainerInit").hide();
             //$("#" + this.parentNode.id + "cont").show();
         });
