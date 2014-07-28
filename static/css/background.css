@@ -31,10 +31,10 @@ a {
 .time_points {
     position: absolute;
     color: #EE3355;
-	width: 1.1em;
-	line-height: 0.7em;
+    width: 1.1em;
+    line-height: 0.7em;
     bottom: 8%;
-	text-align: center;
+    text-align: center;
 }
 
 .timeline {
@@ -49,13 +49,6 @@ a {
 	margin-right: 1.2em;
 	height: 0.9em;
 }
-
-/*
-.time_points {
-    position: absolute;
-    color: #000;
-    bottom: 16%;
-} */
 
 .FixedHeightContainer {
     position:absolute;

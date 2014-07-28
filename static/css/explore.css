@@ -3,6 +3,10 @@ a {
     color: #EE3355;
 }
 
+body {
+    font-family: "Fira Sans";
+}
+
 .opaque {
     position: absolute;
     z-index: -1;
@@ -23,9 +27,14 @@ a {
     background-color: #EE3355;
     bottom: 16%;
 }
+
 .time_points {
     position: absolute;
-    bottom: 12%;
+    color: #EE3355;
+    width: 1.1em;
+    line-height: 0.7em;
+    bottom: 8%;
+    text-align: center;
 }
 
 .question_points {
