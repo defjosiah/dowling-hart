@@ -89,11 +89,14 @@
 
         {% endfor %}
 
+        <div id="continue"><a href="#" alt="Continue to next section" title="Continue to next section"><i class="fa fa-arrow-circle-right fa-5x"></i></a></div>
+
         <script>
         $(document).ready(function(){
             $(".FixedHeightContainerText").hide();
             $(".FixedHeightContainerMC").hide();
             $(".game-content").hide();
+            $("#continue").hide();
         });
 
         $(".clickable-doc").click(function(){
@@ -103,7 +106,9 @@
             $(".FixedHeightContainerInit").hide();
             $("#" + this.id + "text").show();
             $("#" + this.id + "mc").show();
+            $(this).addClass('clicked');
 
+            
             // $('.clickable-doc').draggable( {
             //     containment:'window',
             //     stack: '.clickable-doc',
@@ -128,6 +133,14 @@
             $(".FixedHeightContainerMC").hide();
             $(".game-content").hide();
             $(".FixedHeightContainerInit").show();
+
+            //once go-back is reached, check if the proper number of 
+            //documents has been read
+            if ($(".clicked").length == $(".clickable-doc").length) {
+                $("#continue").show();
+            } else {
+                $("#continue").hide();    
+            }
         }
 
         </script>

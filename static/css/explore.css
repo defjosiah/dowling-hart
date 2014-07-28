@@ -157,3 +157,11 @@ body {
     border-top: 20px solid #EE3355;
     bottom: 14%;
 }
+
+#continue {
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    width: 8%;
+    text-align: center;
+}
