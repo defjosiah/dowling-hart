@@ -28,7 +28,8 @@ def explore():
     return render_template('explore.html',
                         items=(util.expl_render, util.backg_render),
                         solution=util.expl_answer, 
-                        directions=f.read())
+                        directions=f.read(),
+                        tot_points=len(util.backg_render))
 
 #helper functions
 def build_background_timeline():

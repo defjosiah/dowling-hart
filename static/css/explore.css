@@ -37,6 +37,19 @@ body {
     text-align: center;
 }
 
+.timeline {
+    position: absolute;
+    bottom: 8%;
+    /*right: 77%;
+    left: 10%;*/
+    height: 0.9em;
+    background-color: rgba(87, 86, 85, .8);
+    margin-bottom: 1.4em;
+    margin-left: 1.5em;
+    margin-right: 1.2em;
+    height: 0.9em;
+}
+
 .question_points {
     position: absolute;
     bottom: 14%;
