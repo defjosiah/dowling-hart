@@ -14,9 +14,11 @@ def index():
 @app.route('/background/')
 def background():
     build_background_timeline()
+    intro = utility.return_html('./text/backg_intro.md', 'none')
     return render_template('background.html', 
                             items=util.backg_render, 
-                            tot_points=len(util.backg_render))
+                            tot_points=len(util.backg_render),
+                            intro=intro)
 
 @app.route('/explore/')
 def explore():
