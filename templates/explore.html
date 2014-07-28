@@ -35,10 +35,15 @@
             <div id="{{doc[0][:-4]}}mc", class="question_points", style="left:{{doc[1]}}%">
                 <a class="clickable-item" href="#"><i class="fa fa-circle-o"></i>&nbsp; {{doc[2]["date"]}} </a>
             </div>
+
+            <!-- Build the separate panes for mc and document views -->
+            <div class="FixedHeightContainer", id="{{doc[0][:-4]}}docs">
+                <div class="Content">
+                    {{ doc[2]["md"]["text"] | safe }}
+                    {{ doc[2]["md"]["glossary"] | safe }}
+                </div>
+            </div>
         
-
-
-
         {% endfor %}
 
     </body>
