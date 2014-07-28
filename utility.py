@@ -114,6 +114,9 @@ def return_html(path, mc):
             else:
                 continue
 
+        #turn each entry into a markdown string for the entry, turn
+        #it back into a dictionary at the end dict(tuple()) turns 
+        # (key,value) into {key: value}
         a = dict(tuple(map(lambda x: (x[0], markdown.markdown(x[1], 
                                     output_format="html5",
                                     safe_mode=False) ), 
