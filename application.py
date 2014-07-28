@@ -14,12 +14,14 @@ def index():
 def background():
     build_background_timeline()
     return render_template('background.html', 
-                            items=util.backg_render, tot_points=len(util.backg_render))
+                            items=util.backg_render, 
+                            tot_points=len(util.backg_render))
 
 @app.route('/explore/')
 def explore():
     build_background_timeline()
     build_explore_timeline()
+    print util.expl_render
     return render_template('explore.html',
                         items=(util.expl_render, util.backg_render))
 
@@ -38,6 +40,7 @@ def build_explore_timeline():
         util.generate_file_years("./text/explore", "expl")
         util.expl_render = calculate_timeline_placement(
                             util.expl_struct, 10, True)
+        util.generate_explore_answer(2)
 
 
 def calculate_timeline_placement(name_year, buf, exp=False):

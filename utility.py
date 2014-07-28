@@ -22,6 +22,7 @@ class UtilityFunc:
         #explore render and info
         self.expl_render = None
         self.expl_struct = None
+        self.expl_answer = []
 
     def generate_file_years(self, path, page):
         if page == "backg":
@@ -30,6 +31,15 @@ class UtilityFunc:
             self.expl_struct = return_file_years(path)
         else:
             print "error, error, error"
+
+    def generate_explore_answer(self, groups):
+        """
+        Return a list of groups number of tuples, where each tuple contains
+        the average of the closest years, and the document names for that
+        section for the specified timeline section. [(avg, (document1, doc2))]
+        """
+        self.expl_answer = [(1893, ("expl_1_mem", "expl_2_cityhall")), (1997, ("expl_3_civilrights", "expl_4_irish"))]
+
 
 def return_file_years(path):
     """

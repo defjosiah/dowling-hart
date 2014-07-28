@@ -39,8 +39,8 @@
             <div class="Content", id="ContentInit">   
                 {% for doc in items[0] %}
                     <a class="clickable-doc", href="#">
-                         <img src="../static/images/explore/{{doc[0][:-4]}}.jpg" alt="{{doc[0][:-4]}}.jpg">
-                      </a>
+                        <img src="../static/images/explore/{{doc[0][:-4]}}.jpg" alt="{{doc[0][:-4]}}.jpg">
+                    </a>
                 {% endfor %}
             </div>
         </div>
@@ -77,7 +77,7 @@
                 containment:'window',
                 stack: '.clickable-doc',
                 revert: true,
-                appendTo: 'body'
+                appendTo: 'body',
             });
         });
 
