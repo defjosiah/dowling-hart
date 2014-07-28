@@ -21,7 +21,6 @@ def background():
 def explore():
     build_background_timeline()
     build_explore_timeline()
-    print util.expl_render
     return render_template('explore.html',
                         items=(util.expl_render, util.backg_render))
 
