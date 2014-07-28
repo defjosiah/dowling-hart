@@ -80,6 +80,9 @@
         $(document).ready(function(){
             $(".FixedHeightContainerText").hide();
             $(".FixedHeightContainerMC").hide();
+        });
+
+        $(".clickable-doc").click(function(){
             $('.clickable-doc').draggable( {
                 containment:'window',
                 stack: '.clickable-doc',
@@ -91,16 +94,12 @@
                 accept: ".clickable-doc",
                 tolerance: "touch"
             });
-        });
-
-        $(".clickable-doc").click(function(){
             //$(".FixedHeightContainerInit").hide();
             //$("#" + this.parentNode.id + "cont").show();
         });
 
         function handleDropEvent( event, ui ) {
-            var draggable = ui.draggable;
-            alert( 'The square with ID "' + draggable.attr('id') + '" was dropped onto me!' );
+            alert("lol");
         }
         </script>
 
