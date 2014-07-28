@@ -7,6 +7,14 @@ a {
     color: #EE3355;
 }
 
+#continue {
+	position: absolute;
+	top: 30%;
+	right: 3%;
+	width: 8%;
+	text-align: center;
+}
+
 .opaque {
     position: absolute;
     z-index: -1;
