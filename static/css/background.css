@@ -24,11 +24,23 @@ a {
     position: absolute;
     color: #EE3355;
 	width: 1.1em;
-	line-height: 0.9em;
+	line-height: 0.7em;
     bottom: 8%;
 	text-align: center;
 }
 
+.timeline {
+	position: absolute;
+	bottom: 8%;
+	/*right: 77%;
+	left: 10%;*/
+	height: 0.9em;
+	background-color: rgba(87, 86, 85, .8);
+	margin-bottom: 1.4em;
+	margin-left: 1.5em;
+	margin-right: 1.3em;
+	height: 0.9em;
+}
 
 /*
 .time_points {
