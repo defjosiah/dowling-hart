@@ -25,13 +25,30 @@
 
         <div class="opaque"></div>
 
+        
+
         {% for doc in items[1] %}
             <div id="{{doc[0][:-4]}}", class="time_points", style="left:{{doc[1]}}%">
                 <a class="clickable-item" href="#"><i class="fa fa-circle"></i>&nbsp; {{doc[2]["date"]}} </a>
             </div>
         {% endfor %}
 
+        <!-- Build first view for explore page -->
+
+        <div class="FixedHeightContainerInit", id="initial_view">
+            <div class="Content", id="ContentInit">   
+                {% for doc in items[0] %}
+                    <a class="clickable-doc", href="#">
+                         <img src="../static/images/explore/{{doc[0][:-4]}}.jpg" alt="{{doc[0][:-4]}}.jpg">
+                      </a>
+                {% endfor %}
+            </div>
+        </div>
+
         {% for doc in items[0] %}
+            <!-- Use document names to refer to the matching .jpg documents -->
+            <!-- in the static/images/explore folder for first view -->
+
             <div id="{{doc[0][:-4]}}mc", class="question_points", style="left:{{doc[1]}}%">
                 <a class="clickable-item" href="#"><i class="fa fa-circle-o"></i>&nbsp; {{doc[2]["date"]}} </a>
             </div>
@@ -51,6 +68,19 @@
             </div>
 
         {% endfor %}
+
+        <script>
+        $(document).ready(function(){
+            $(".FixedHeightContainerText").hide();
+            $(".FixedHeightContainerMC").hide();
+        });
+
+        $(".clickable-doc").click(function(){
+            alert(this);
+            //$(".FixedHeightContainerInit").hide();
+            //$("#" + this.parentNode.id + "cont").show();
+        });
+        </script>
 
     </body>
 </html>
