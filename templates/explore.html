@@ -25,7 +25,16 @@
 
         <div class="opaque"></div>
 
-        
+        {% for position, docs in solution %}
+
+            <div id="{{docs[0][5]}}{{docs[1][5]}}" class="sol-box" style="left:{{position - 30 | round}}%">
+                <!-- <i class="fa fa-square-o"></i> -->
+           </div>
+           <!--  <div id="{{docs[0][5]}}{{docs[1][5]}}", style="left={{position | round}}%">
+                {{docs}} {{position}}
+            </div> -->
+
+        {% endfor %}
 
         {% for doc in items[1] %}
             <div id="{{doc[0][:-4]}}", class="time_points", style="left:{{doc[1]}}%">

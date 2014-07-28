@@ -38,7 +38,9 @@ class UtilityFunc:
         the average of the closest years, and the document names for that
         section for the specified timeline section. [(avg, (document1, doc2))]
         """
-        self.expl_answer = [(1893, ("expl_1_mem", "expl_2_cityhall")), (1997, ("expl_3_civilrights", "expl_4_irish"))]
+        a = (1893 - 1837)*1.0 / 162 * (100 - 16) + 8
+        b = (1997 - 1837)*1.0 / 162 * (100 - 16) + 8
+        self.expl_answer = [(a, ("expl_1_mem", "expl_2_cityhall")), (b, ("expl_3_civilrights", "expl_4_irish"))]
 
 
 def return_file_years(path):

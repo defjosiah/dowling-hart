@@ -16,6 +16,13 @@ a {
     height: 100%;
 }
 
+.sol-box {
+    position: absolute;
+    height: 20%;
+    width: 30%;
+    background-color: #EE3355;
+    bottom: 16%;
+}
 .time_points {
     position: absolute;
     bottom: 12%;
