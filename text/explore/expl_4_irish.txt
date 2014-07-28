@@ -14,9 +14,9 @@ Today we are assembled beneath the statue of a hero [Dowling] with the shamrock 
 
 contemporaries: people belonging to the same time period as each other 
 
-diaspora: an ethnic group that migrated all over the world from its native homeland
+diaspora: an ethnic group that migrated all over the world from the native homeland
 
-illustrious: famous/distinguished/outstanding
+illustrious: famous or distinguished
 
 Tuam: the town in Ireland where Dick Dowling was born
 >
@@ -24,16 +24,26 @@ Tuam: the town in Ireland where Dick Dowling was born
 <mc
 
 ##Which part of Dowling’s life does the speaker not mention?
-1. Living in Houston
-2. Fighting for the Confederacy
-3. Being born in Ireland
-4. both a and c
-Tip: The speaker calls Dowling a son of what?
 
-Given the focus of the document, who is the speaker most likely to be? 
-1. a member of the United Daughters of the Confederacy
-2. an Irish historian
-3. an African American civil rights activist
-4. the sculptor of the statue
-Tip: Have you considered the emphasis on Dowling’s ethnic heritage?
+1. Living in Houston
+
+2. Fighting for the Confederacy
+
+3. Being born in Ireland
+
+4. Both a and c
+
+tip: The speaker calls Dowling a son of what?
+
+##Given the focus of the document, who is the speaker most likely to be? 
+
+1. A member of the United Daughters of the Confederacy
+
+2. An Irish historian
+
+3. An African-American civil rights activist
+
+4. The sculptor of the statue
+
+tip: Have you considered the emphasis on Dowling’s ethnic heritage?
 >
