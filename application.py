@@ -14,7 +14,7 @@ def index():
 def background():
     build_background_timeline()
     return render_template('background.html', 
-                            items=util.backg_render)
+                            items=util.backg_render, tot_points=len(util.backg_render))
 
 @app.route('/explore/')
 def explore():

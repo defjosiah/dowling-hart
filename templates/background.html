@@ -26,18 +26,26 @@
         <!-- Selector for background image -->
         <div class="opaque"></div>
 
+		<!-- Generate time points -->
         {% for doc in items %}
             <div id="{{doc[0][:-4]}}", class="time_points", style="left:{{doc[1]}}%">
                 <a class="clickable-item" href="#"><i class="fa fa-circle"></i>&nbsp; {{doc[2]["date"]}} </a>
             </div>
+        {% endfor %}
         
+		<!-- Generate time point content panes -->
+        {% for doc in items %}
         <div class="FixedHeightContainer", id="{{doc[0][:-4]}}cont">
           <div class="Content">
                 {{ doc[2]["md"]|safe }}
           </div>
         </div>
-
         {% endfor %}
+
+		<!-- Draw lines between time points -->
+		{% for n in range(tot_points - 1) %}
+        		<div class="timeline" style="right:{{ 99 - items[n+1][1] }}%; left: {{ items[n][1] }}%"></div>
+		{% endfor %}
 
 
         <script>
