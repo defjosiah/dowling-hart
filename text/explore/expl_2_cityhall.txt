@@ -44,31 +44,31 @@ Ancient Order of Hibernians: specific organization of Irish Catholics
 
 traversed: travelled
 
-thronged: full/jam-packed
+thronged: full or jam-packed
 >
 
 <mc 
 ##The importance of the statue is indicated by which of the following:
 
-1. the government officials
+1. The attendance of government officials
 
-2. the location of the statue at city hall
+2. The location of the statue at City Hall
 
-3. the number of people participating in the parade
+3. The number of people participating in the parade
 
-4. all of the above
+4. All of the above
 
 tip: Have you considered the size of the event and the parade’s destination?
 
-##The bright colors and size of the crowd indicate that Houstonians at the time thought Dick Dowling was a:
+##The bright colors and size of the crowd indicate that Houstonians at the time thought Dick Dowling was a(n):
 
-1. monster for helping the Confederacy
+1. Monster for helping the Confederacy
 
-2. hero
+2. Hero
 
-3. unimportant
+3. Insignificant individual
 
-4. successful politician
+4. Successful politician
 
-tip: Have you considered how happy the event is portrayed? 
+tip: Have you considered how positively the event is portrayed? 
 >
