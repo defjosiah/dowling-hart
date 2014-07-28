@@ -44,9 +44,10 @@
 
 		<!-- Draw lines between time points -->
 		{% for n in range(tot_points - 1) %}
-        		<div class="timeline" style="right:{{ 99 - items[n+1][1] }}%; left: {{ items[n][1] }}%"></div>
+       	    <div class="timeline" style="right:{{ 99 - items[n+1][1] }}%; left: {{ items[n][1] }}%"></div>
 		{% endfor %}
-
+			<div class="timeline" style="right:1px; left: 90%"></div>
+			<div class="timeline" style="right:89%; left:1px"></div>
 
         <script>
         $(document).ready(function(){
