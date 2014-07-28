@@ -37,13 +37,19 @@
             </div>
 
             <!-- Build the separate panes for mc and document views -->
-            <div class="FixedHeightContainer", id="{{doc[0][:-4]}}docs">
-                <div class="Content">
+            <div class="FixedHeightContainerText", id="{{doc[0][:-4]}}docs">
+                <div class="Content", id="ContentText">
                     {{ doc[2]["md"]["text"] | safe }}
                     {{ doc[2]["md"]["glossary"] | safe }}
                 </div>
             </div>
         
+            <div class="FixedHeightContainerMC", id="{{doc[0][:-4]}}docs">
+                <div class="Content", id="ContentMC">
+                    {{ doc[2]["md"]["mc"] | safe }}
+                </div>
+            </div>
+
         {% endfor %}
 
     </body>

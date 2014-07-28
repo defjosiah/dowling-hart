@@ -26,19 +26,35 @@ a {
     bottom: 14%;
 }
 
-.FixedHeightContainer {
+.FixedHeightContainerText {
     position:absolute;
     left: 12%;
     top: 6%;
     height: 70%;
-    width:37.5%;
+    width:38%;
+}
+
+.FixedHeightContainerMC {
+    position:absolute;
+    left: 50%;
+    top: 6%;
+    height: 70%;
+    width:38%;
 }
 
 .Content {
     height:100%;
     overflow:auto;
+}
+
+#ContentText {
     background-color:rgba(87, 86, 85, .8); 
     color: white;
+}
+
+#ContentMC {
+    background-color:rgba(0, 0, 0, 1.0); 
+    color: red;
 }
 
 .Content h1,h2,p {
