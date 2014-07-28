@@ -66,7 +66,12 @@
         
             <div class="FixedHeightContainerMC", id="{{doc[0][:-4]}}mc">
                 <div class="Content", id="ContentMC">
+                    &nbsp;
+                    &nbsp;
                     {{ doc[2]["md"]["mc"] | safe }}
+                </div>
+                <div class="back-button" onclick=goBack()>
+                    <i class="fa fa-arrow-left"></i> Back
                 </div>
             </div>
 
@@ -106,9 +111,12 @@
             alert("lol");
         }
 
-        function handleDoc( input ) {
-
+        function goBack() {
+            $(".FixedHeightContainerText").hide();
+            $(".FixedHeightContainerMC").hide();
+            $("#initial_view").show();
         }
+
         </script>
 
     </body>

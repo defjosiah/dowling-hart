@@ -118,4 +118,11 @@ a {
     width:75%;
 }
 
+.back-button {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    color: rgba(87, 86, 85, 1.0);
+}
+
 
