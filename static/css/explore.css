@@ -125,4 +125,12 @@ a {
     color: rgba(87, 86, 85, 1.0);
 }
 
-
+.arrow-down {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #EE3355;
+    bottom: 14%;
+}

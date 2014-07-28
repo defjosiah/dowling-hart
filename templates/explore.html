@@ -25,8 +25,10 @@
 
         <div class="opaque"></div>
 
+        <!-- Build views for the timeline --> 
         {% for position, docs in solution %}
             <div id="{{docs[0][5]}}{{docs[1][5]}}" class="sol-box" style="left:{{position - 25 | round}}%"></div>
+            <div class="arrow-down" style="left:{{position}}%"></div>
         {% endfor %}
 
 
@@ -48,14 +50,10 @@
             </div>
         </div>
 
+        <!-- Use document names to refer to the matching .jpg documents -->
+        <!-- in the static/images/explore folder for first view -->
+
         {% for doc in items[0] %}
-            <!-- Use document names to refer to the matching .jpg documents -->
-            <!-- in the static/images/explore folder for first view -->
-
-            <div id="{{doc[0][:-4]}}mcpoints", class="question_points", style="left:{{doc[1]}}%">
-                <a class="clickable-item" href="#"><i class="fa fa-circle-o"></i>&nbsp; {{doc[2]["date"]}} </a>
-            </div>
-
             <!-- Build the separate panes for mc and document views -->
             <div class="FixedHeightContainerText", id="{{doc[0][:-4]}}text">
                 <div class="Content", id="ContentText">
