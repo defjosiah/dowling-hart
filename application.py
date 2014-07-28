@@ -1,5 +1,6 @@
 import os
 import utility
+import codecs
 from flask import Flask
 from flask import render_template
 
@@ -21,11 +22,13 @@ def background():
 def explore():
     build_background_timeline()
     build_explore_timeline()
+    f = codecs.open("./text/directions/expl_directions.txt", mode="r", encoding="utf-8")
     return render_template('explore.html',
                         items=(util.expl_render, util.backg_render),
-                        solution=util.expl_answer)
+                        solution=util.expl_answer, 
+                        directions=f.read())
 
-## Helper Functions ##
+#helper functions
 def build_background_timeline():
     """
     Generate the object to render for the background template. 
