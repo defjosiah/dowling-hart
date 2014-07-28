@@ -25,6 +25,8 @@ Partners - Rice University and Houston Metropolitan Research Center
 ###To-Do
 Switch utility functions to a utility class, store lots of local variables, will also make it easier to efficiently reload
 
+make draggable work with iPads
+
 ###Colors
 Color | C | M | Y | K | 
 ------|---|---|---|---|
