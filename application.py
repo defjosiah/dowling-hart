@@ -22,7 +22,8 @@ def explore():
     build_background_timeline()
     build_explore_timeline()
     return render_template('explore.html',
-                        items=(util.expl_render, util.backg_render))
+                        items=(util.expl_render, util.backg_render),
+                        solution=util.expl_answer)
 
 ## Helper Functions ##
 def build_background_timeline():
