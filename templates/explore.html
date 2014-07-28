@@ -31,6 +31,7 @@
 
         {% endfor %}
 
+
         {% for doc in items[1] %}
             <div id="{{doc[0][:-4]}}", class="time_points", style="left:{{doc[1]}}%">
                 <a class="clickable-item" href="#"><i class="fa fa-circle"></i>&nbsp; {{doc[2]["date"]}} </a>
@@ -83,7 +84,12 @@
                 containment:'window',
                 stack: '.clickable-doc',
                 revert: true,
-                appendTo: 'body',
+                appendTo: 'body'
+            });
+            $('.sol-box').droppable( {
+                drop: handleDropEvent,
+                accept: ".clickable-doc",
+                tolerance: "touch"
             });
         });
 
@@ -91,6 +97,11 @@
             //$(".FixedHeightContainerInit").hide();
             //$("#" + this.parentNode.id + "cont").show();
         });
+
+        function handleDropEvent( event, ui ) {
+            var draggable = ui.draggable;
+            alert( 'The square with ID "' + draggable.attr('id') + '" was dropped onto me!' );
+        }
         </script>
 
     </body>
