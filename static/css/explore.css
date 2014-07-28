@@ -58,7 +58,8 @@ a {
 }
 
 .FixedHeightContainerInit img {
-    height: 70%;
+    position: relative;
+    height: 55%;
 }
 
 #ContentInit {
@@ -79,7 +80,7 @@ a {
     color: red;
 }
 
-.Content h1,h2,p {
+.Content h1,h2,h3,p {
     margin: 10px;
 }
 
@@ -93,6 +94,11 @@ a {
     font-family: "Fira Sans";
     font-size: 2em;
     font-weight: 500;
+}
+
+.Content h3 {
+    font-family: "Fira Sans";
+    font-size: 1.0em;
 }
 
 .Content p {
