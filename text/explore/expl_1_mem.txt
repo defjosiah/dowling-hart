@@ -1,9 +1,9 @@
-<!-- author:Clare Jensen, date:1882, mc:d -->
+<!-- author:Clare Jensen, date:1882, mc:da -->
 
 <text 
 #Memory after the War
 
-##Jefferson Davis’s 1882 speech in New Orleans.
+##Jefferson Davis speech in New Orleans.
 
 **Text**
 
@@ -40,7 +40,7 @@ gallant: brave, courageous
 >
 
 <mc 
-The speaker thinks that: 
+##The speaker thinks that: 
 
 1. The Union should have won the war
 
@@ -52,4 +52,14 @@ The speaker thinks that:
 
 tip: Have you considered that the speaker called Dowling brave for winning the
 battle despite being outnumbered? 
+
+##The speaker’s opinion of Dick Dowling is that he was
+
+1. a hero for winning the Battle of Sabine Pass
+
+2. important to the victory at Thermopylae
+
+3. was a coward
+
+4. more famous than he should be
 >
