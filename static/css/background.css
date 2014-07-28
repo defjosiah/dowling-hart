@@ -1,3 +1,7 @@
+body {
+	font-family: "Fira Sans";
+}
+
 a {
     text-decoration: none;
     color: #EE3355;
@@ -19,14 +23,19 @@ a {
 .time_points {
     position: absolute;
     color: #EE3355;
-    bottom: 12%;
+	width: 1.1em;
+	line-height: 0.9em;
+    bottom: 8%;
+	text-align: center;
 }
 
+
+/*
 .time_points {
     position: absolute;
     color: #000;
     bottom: 16%;
-}
+} */
 
 .FixedHeightContainer {
     position:absolute;
