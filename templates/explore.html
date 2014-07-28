@@ -26,12 +26,17 @@
         <div class="opaque"></div>
 
         <!-- Build views for the timeline --> 
+
+        <!-- Content for game, including droppable box -->
+        <div class="game-content">
         {% for position, docs in solution %}
             <div id="{{docs[0][5]}}{{docs[1][5]}}" class="sol-box" style="left:{{position - 25 | round}}%"></div>
             <div class="arrow-down" style="left:{{position}}%"></div>
         {% endfor %}
+        </div>
 
-
+        <!-- should always be shown -->
+        <div class="always-shown">
         {% for doc in items[1] %}
             <div class="time_points", style="left:{{doc[1]}}%">
                 <a class="clickable-item" href="#"><i class="fa fa-circle"></i>&nbsp; {{doc[2]["date"]}} </a>
@@ -44,6 +49,7 @@
         {% endfor %}
             <div class="timeline" style="right:1px; left: 90%"></div>
             <div class="timeline" style="right:89%; left:1px"></div>
+        </div>
 
 
         <!-- Build first view for explore page -->
@@ -87,14 +93,14 @@
         $(document).ready(function(){
             $(".FixedHeightContainerText").hide();
             $(".FixedHeightContainerMC").hide();
+            $(".game-content").hide();
         });
 
         $(".clickable-doc").click(function(){
             $(".FixedHeightContainerText").hide();
             $(".FixedHeightContainerMC").hide();
-            $("#initial_view").hide();
-            $(".question_points").hide();
-            $(".sol-box").hide();
+            $(".game-content").hide();
+            $(".FixedHeightContainerInit").hide();
             $("#" + this.id + "text").show();
             $("#" + this.id + "mc").show();
 
@@ -120,7 +126,8 @@
         function goBack() {
             $(".FixedHeightContainerText").hide();
             $(".FixedHeightContainerMC").hide();
-            $("#initial_view").show();
+            $(".game-content").hide();
+            $(".FixedHeightContainerInit").show();
         }
 
         </script>
