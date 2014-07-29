@@ -197,6 +197,7 @@
 
             function handleDropEvent( event, ui ) {
                 var draggable = ui.draggable;
+                draggable.draggable('option', 'revert', false );
                 if (this.id.indexOf(draggable.attr('id')) > -1) {
                     alert("they match");
                 }
