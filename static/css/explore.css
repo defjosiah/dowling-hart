@@ -114,11 +114,6 @@ body {
     color: white;
 }
 
-.Content:a {
-    position: relative;
-}
-
-
 #ContentText {
     background-color:rgba(87, 86, 85, .8); 
     color: white;

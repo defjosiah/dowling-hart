@@ -197,6 +197,12 @@
 
             function handleDropEvent( event, ui ) {
                 var draggable = ui.draggable;
+                if (this.id.indexOf(draggable.attr('id')) > -1) {
+                    alert("they match");
+                }
+                else {
+                    alert("they don't match");
+                }
                 alert( 'The square with ID "' + draggable.attr('id') + '" was dropped onto me!' );
                 alert(this.id);
             }
