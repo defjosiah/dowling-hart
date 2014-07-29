@@ -9,9 +9,10 @@ app = Flask(__name__)
 util = utility.UtilityFunc()
 
 @app.route('/')
-def index():
-    return "<a href='/background/'>Index to Background</a>"
+#def index():
+ #   return "<a href='/background/'>Index to Background</a>"
 
+@app.route('/')
 @app.route('/background/')
 def background():
     build_background_timeline()
