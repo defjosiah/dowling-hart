@@ -42,7 +42,11 @@
         <div class="always-shown">
         {% for doc in items[1] %}
             <div class="time_points", style="left:{{doc[1]}}%">
-                <a class="clickable-item" href="#"><i class="fa fa-circle"></i>&nbsp; {{doc[2]["date"]}} </a>
+
+                <!--css click event hack, tabindex needed for safari-->
+                <a class="clickable-item" href="#" tabindex="{{doc[2]["date"]}}" ><i class="fa fa-circle"></i>&nbsp; {{doc[2]["date"]}} </a>
+                <div class="click-event" style="position: absolute; top: -50%;"> {{doc[0]}} </div>
+
             </div>
         {% endfor %}
 

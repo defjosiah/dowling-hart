@@ -37,6 +37,11 @@ body {
     text-align: center;
 }
 
+/* CSS click event hack http://tympanus.net/codrops/2012/12/17/css-click-events/ */
+.time_points .click-event { display: none;}
+.time_points a:focus ~ .click-event { display: block; }
+.time_points a:focus {outline: 0;}
+
 .timeline {
     position: absolute;
     bottom: 8%;
