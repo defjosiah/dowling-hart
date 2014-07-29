@@ -101,6 +101,7 @@
 
         <div class="nothing"><a class="fill-div" href="#" onclick=checkAnswer()>Check Answer</a></div>
 
+        <div class="nothing2"><a class="fill-div" href="/process/">Continue</div>
         <script>
         $(document).ready(function(){
             //hide all of the Containers
@@ -113,11 +114,12 @@
             $(".not-game-content").hide();
             $(".nothing").hide();
             $(".continue").hide();
+            $(".nothing2").hide();
         });
         
         $(".clickable-doc").click(function(){
             //Hide all before, to make sure only one is 
-            //open at a time 
+            //open at a time
             $(".FixedHeightContainerText").hide();
             $(".FixedHeightContainerMC").hide();
 
@@ -145,6 +147,9 @@
         function checkAnswer() {
             if( $(".correct").length == 4 ) {
                 alert("you are correct!");
+                $(".nothing2").toggleClass("nothing2 revealfinal");
+                $(".revealfinal").show();
+                $(".checkanswer").hide();
             }
             else {
                 alert("try again! look at the hints");
