@@ -28,7 +28,9 @@
         <!-- Build views for the timeline --> 
 
         <!-- Content for game, including droppable box -->
-        <div class="game-content">
+        <!-- Called not-game-content so that it isn't displayed -->
+        <!-- automatically until the class is toggled in onclick functions --> 
+        <div class="not-game-content">
         {% for position, docs in solution %}
             <div id="{{docs[0][5]}}{{docs[1][5]}}" class="sol-box" style="left:{{position - 25 | round}}%"></div>
             <div class="arrow-down" style="left:{{position}}%"></div>
@@ -53,6 +55,8 @@
 
 
         <!-- Build first view for explore page -->
+        <!-- starts out as FHContainerInit switches to FHContainerGame -->
+        <!-- when it is clicked -->
 
         <div class="FixedHeightContainerInit", id="initial_view">
             <div class="Content", id="ContentInit"> 
@@ -89,25 +93,43 @@
 
         {% endfor %}
 
-        <div id="continue"><a href="#" onclick=init() alt="Continue to next section" title="Continue to next section"><i class="fa fa-arrow-circle-right fa-5x"></i></a></div>
+        <div class="continue"><a id="done" href="#" onclick=init() alt="Continue to next section" title="Continue to next section"><i class="fa fa-arrow-circle-right fa-5x"></i></a></div>
 
         <script>
         $(document).ready(function(){
+            //hide all of the Containers
             $(".FixedHeightContainerText").hide();
             $(".FixedHeightContainerMC").hide();
-            $(".game-content").hide();
-            $("#continue").hide();
+
+            //Hide the not-game-content view which 
+            //includes the drawn timeline
+            $(".not-game-content").hide();
+            $(".continue").hide();
         });
 
         $(".clickable-doc").click(function(){
+            //Hide all before, to make sure only one is 
+            //open at a time 
             $(".FixedHeightContainerText").hide();
             $(".FixedHeightContainerMC").hide();
+
+            //will only need to be hidden if the class
+            //has been toggled, prevents the drawn timeline boxes
+            //from being ignored on click 
             $(".game-content").hide();
             $(".FixedHeightContainerInit").hide();
+            $(".FixedHeightContainerGame").hide();
+
+            //the picture ids are the document names making it 
+            //easy to show the corresponding document views, I 
+            //find this clever, though I'm not sure if this is the
+            //javacript way to do it
             $("#" + this.id + "text").show();
             $("#" + this.id + "mc").show();
-            $(this).addClass('clicked');
 
+            //keep track of the clicked argument, the go-back function
+            //evalueates this to show the continue argument
+            $(this).addClass('clicked');
             
             // $('.clickable-doc').draggable( {
             //     containment:'window',
@@ -124,6 +146,7 @@
             //$("#" + this.parentNode.id + "cont").show();
         });
 
+
         function handleDropEvent( event, ui ) {
             alert("lol");
         }
@@ -131,22 +154,36 @@
         function goBack() {
             $(".FixedHeightContainerText").hide();
             $(".FixedHeightContainerMC").hide();
-            $(".game-content").hide();
+            $(".game-content").show();
             $(".FixedHeightContainerInit").show();
+            $(".FixedHeightContainerGame").show();
 
             //once go-back is reached, check if the proper number of 
             //documents has been read
+            //this won't be triggered if the class has been toggled 
+            //so that .clicked is .immaterial
             if ($(".clicked").length == $(".clickable-doc").length) {
-                $("#continue").show();
+                $(".continue").show();
             } else {
-                $("#continue").hide();    
+                $(".continue").hide();    
             }
         }
 
         function init() {
+            //the game is now on, so toggle the class so that that styling
+            //shows through 
+            $(".not-game-content").toggleClass("not-game-content game-content");
             $(".game-content").show();
+
+            //The styling needs to change on the main container for the game 
+            // so this will change the styling
             $("#initial_view").toggleClass("FixedHeightContainerInit FixedHeightContainerGame");
-            $("#continue").hide();
+
+            //hide the button that calls the init function, rename the class
+            //to something immaterial, so that it won't be called by any other
+            //functions again 
+            $(".continue").hide();
+            $(".continue").toggleClass("continue immaterial");
         }
 
         </script>
