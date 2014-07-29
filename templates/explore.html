@@ -99,6 +99,8 @@
 
         <div class="continue"><a id="done" href="#" onclick=init() alt="Continue to next section" title="Continue to next section"><i class="fa fa-arrow-circle-right fa-5x"></i></a></div>
 
+        <div id="checkanswer"><a href="#" onclick=checkAnswer()><i class="fa fa-arrow-circle-right fa-2x">Check Answer</i></a></div>
+
         <script>
         $(document).ready(function(){
             //hide all of the Containers
@@ -140,6 +142,14 @@
 
         */
 
+        function checkAnswer() {
+            if( $(".correct").length == 4 ) {
+                alert("you are correct!");
+            }
+            else {
+                alert("try again! look at the hints");
+            }
+        }
 
         function goBack() {
             $(".FixedHeightContainerText").hide();
@@ -162,7 +172,6 @@
         function init() {
             //the game is now on, so toggle the class so that that styling
             //shows through 
-            var correct = 0;
             $(".not-game-content").toggleClass("not-game-content game-content");
             $(".game-content").show();
             $("#explore_directions").hide();
@@ -199,13 +208,11 @@
                 var draggable = ui.draggable;
                 draggable.draggable('option', 'revert', false );
                 if (this.id.indexOf(draggable.attr('id')) > -1) {
-                    alert("they match");
+                    draggable.addClass('correct');
                 }
                 else {
-                    alert("they don't match");
+                    draggable.removeClass('correct');
                 }
-                alert( 'The square with ID "' + draggable.attr('id') + '" was dropped onto me!' );
-                alert(this.id);
             }
 
             //$(".FixedHeightContainerInit").hide();
