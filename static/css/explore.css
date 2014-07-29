@@ -62,6 +62,8 @@ body {
     height: 70%;
     width:38%;
     overflow: auto;
+    background-color:rgba(87, 86, 85, .8); 
+    color: white;
 }
 
 .FixedHeightContainerMC {
@@ -71,6 +73,8 @@ body {
     height: 70%;
     width:38%;
     overflow: auto;
+    background-color:rgba(255, 255, 255, 0.8); 
+    color: #EE3355;
 }
 
 .FixedHeightContainerInit {
@@ -111,17 +115,6 @@ body {
 
 .Content {
     height:100%;
-    color: white;
-}
-
-#ContentText {
-    background-color:rgba(87, 86, 85, .8); 
-    color: white;
-}
-
-#ContentMC {
-    background-color:rgba(255, 255, 255, 0.8); 
-    color: #EE3355;
 }
 
 .Content h1,h2,h3,p {
