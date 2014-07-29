@@ -109,9 +109,10 @@
             //Hide the not-game-content view which 
             //includes the drawn timeline
             $(".not-game-content").hide();
-            $(".continue").hide();
+            //$(".continue").hide();
         });
 
+        /*
         $(".clickable-doc").click(function(){
             //Hide all before, to make sure only one is 
             //open at a time 
@@ -135,22 +136,9 @@
             //keep track of the clicked argument, the go-back function
             //evalueates this to show the continue argument
             $(this).addClass('clicked');
-            
-            // $('.clickable-doc').draggable( {
-            //     containment:'window',
-            //     stack: '.clickable-doc',
-            //     revert: true,
-            //     appendTo: 'body'
-            // });
-            // $('.sol-box').droppable( {
-            //     drop: handleDropEvent,
-            //     accept: ".clickable-doc",
-            //     tolerance: "touch"
-            // });
-            //$(".FixedHeightContainerInit").hide();
-            //$("#" + this.parentNode.id + "cont").show();
         });
 
+        */
 
         function handleDropEvent( event, ui ) {
             alert("lol");
@@ -191,6 +179,26 @@
             //functions again 
             $(".continue").hide();
             $(".continue").toggleClass("continue immaterial");
+
+            //Setup the game
+
+            $(".clickable-doc").show();
+            
+            $('.clickable-doc').draggable( {
+                containment:'window',
+                stack: '.clickable-doc',
+                revert: true,
+                appendTo: 'body'
+            });
+
+            $('.sol-box').droppable( {
+                drop: handleDropEvent,
+                accept: ".clickable-doc",
+                tolerance: "touch"
+            });
+            //$(".FixedHeightContainerInit").hide();
+            //$("#" + this.parentNode.id + "cont").show();
+
         }
 
         </script>

@@ -61,6 +61,7 @@ body {
     top: 6%;
     height: 70%;
     width:38%;
+    overflow: auto;
 }
 
 .FixedHeightContainerMC {
@@ -69,6 +70,7 @@ body {
     top: 6%;
     height: 70%;
     width:38%;
+    overflow: auto;
 }
 
 .FixedHeightContainerInit {
@@ -77,6 +79,7 @@ body {
     top: 6%;
     height: 70%;
     width:76%;
+    overflow: auto;
 }
 
 .FixedHeightContainerGame {
@@ -85,6 +88,7 @@ body {
     top: 6%;
     height: 50%;
     width:76%;
+    overflow: none;
 }
 
 .FixedHeightContainerInit img {
@@ -108,7 +112,10 @@ body {
 .Content {
     height:100%;
     color: white;
-    overflow: auto;
+}
+
+.Content:a {
+    position: relative;
 }
 
 
