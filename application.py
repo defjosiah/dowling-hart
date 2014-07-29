@@ -40,7 +40,7 @@ def explore():
 
 @app.route('/process/')
 def process():
-    return "<a href='/'>Process to Index</a>"
+    return render_template('process.html')
 
 #helper functions
 def build_background_timeline():
