@@ -32,7 +32,7 @@
         <!-- automatically until the class is toggled in onclick functions --> 
         <div class="not-game-content">
         {% for position, docs in solution %}
-            <div id="{{docs[0][5]}}{{docs[1][5]}}" class="sol-box" style="left:{{position - 25 | round}}%"></div>
+            <div id="{{docs[0]}}+{{docs[1]}}" class="sol-box" style="left:{{position - 25 | round}}%"></div>
             <div class="arrow-down" style="left:{{position}}%"></div>
         {% endfor %}
         </div>
@@ -140,9 +140,6 @@
 
         */
 
-        function handleDropEvent( event, ui ) {
-            alert("lol");
-        }
 
         function goBack() {
             $(".FixedHeightContainerText").hide();
@@ -165,6 +162,7 @@
         function init() {
             //the game is now on, so toggle the class so that that styling
             //shows through 
+            var correct = 0;
             $(".not-game-content").toggleClass("not-game-content game-content");
             $(".game-content").show();
             $("#explore_directions").hide();
@@ -196,6 +194,13 @@
                 accept: ".clickable-doc",
                 tolerance: "touch"
             });
+
+            function handleDropEvent( event, ui ) {
+                var draggable = ui.draggable;
+                alert( 'The square with ID "' + draggable.attr('id') + '" was dropped onto me!' );
+                alert(this.id);
+            }
+
             //$(".FixedHeightContainerInit").hide();
             //$("#" + this.parentNode.id + "cont").show();
 
