@@ -211,6 +211,7 @@
                 var draggable = ui.draggable;
                 //draggable.position( { of: $(this), my: 'left top', at: 'left top' } );
                 draggable.draggable('option', 'revert', false );
+            
                 if (this.id.indexOf(draggable.attr('id')) > -1) {
                     draggable.addClass('correct');
                 }
@@ -218,10 +219,6 @@
                     draggable.removeClass('correct');
                 }
             }
-
-            //$(".FixedHeightContainerInit").hide();
-            //$("#" + this.parentNode.id + "cont").show();
-
         }
 
         </script>
