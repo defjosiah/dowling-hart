@@ -1,6 +1,7 @@
 import os
 import utility
 import codecs
+import markdown
 from flask import Flask
 from flask import render_template
 
@@ -25,10 +26,16 @@ def explore():
     build_background_timeline()
     build_explore_timeline()
     f = codecs.open("./text/directions/expl_directions.txt", mode="r", encoding="utf-8")
+    g = codecs.open("./text/directions/expl_game_directions.txt", mode="r", encoding="utf-8")
+    f = markdown.markdown(f.read(), output_format="html5",
+                                    safe_mode=False)
+    g = markdown.markdown(g.read(), output_format="html5",
+                                    safe_mode=False)
+
     return render_template('explore.html',
                         items=(util.expl_render, util.backg_render),
                         solution=util.expl_answer, 
-                        directions=f.read(),
+                        directions=(f,g),
                         tot_points=len(util.backg_render))
 
 #helper functions
