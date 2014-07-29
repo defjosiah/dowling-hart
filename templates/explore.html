@@ -89,7 +89,7 @@
 
         {% endfor %}
 
-        <div id="continue"><a href="#" alt="Continue to next section" title="Continue to next section"><i class="fa fa-arrow-circle-right fa-5x"></i></a></div>
+        <div id="continue"><a href="#" onclick=init() alt="Continue to next section" title="Continue to next section"><i class="fa fa-arrow-circle-right fa-5x"></i></a></div>
 
         <script>
         $(document).ready(function(){
@@ -143,7 +143,12 @@
             }
         }
 
-        </script>
+        function init() {
+            $(".game-content").show();
+            $("#initial_view").toggleClass("FixedHeightContainerInit FixedHeightContainerGame");
+            $("#continue").hide();
+        }
 
+        </script>
     </body>
 </html>
