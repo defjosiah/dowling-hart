@@ -195,7 +195,10 @@
                 containment:'window',
                 stack: '.clickable-doc',
                 revert: true,
-                appendTo: 'body'
+                snap: '.sol-box',
+                snapMode: 'inner',
+                snapTolerance: 40
+                //appendTo: 'body'
             });
 
             $('.sol-box').droppable( {
@@ -206,6 +209,7 @@
 
             function handleDropEvent( event, ui ) {
                 var draggable = ui.draggable;
+                //draggable.position( { of: $(this), my: 'left top', at: 'left top' } );
                 draggable.draggable('option', 'revert', false );
                 if (this.id.indexOf(draggable.attr('id')) > -1) {
                     draggable.addClass('correct');
