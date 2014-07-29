@@ -209,6 +209,9 @@
             $(".clickable-doc").show();
             
             $('.clickable-doc').draggable( {
+                stop: function(event, ui) {
+                    $( event.toElement ).unbind('click').one('click', function(e){ e.stopImmediatePropagation(); } );
+                },
                 containment:'window',
                 stack: '.clickable-doc',
                 revert: true,
