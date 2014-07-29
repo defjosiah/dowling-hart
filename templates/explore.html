@@ -60,8 +60,12 @@
 
         <div class="FixedHeightContainerInit", id="initial_view">
             <div class="Content", id="ContentInit"> 
-                <h1>Document Exploration! </h1> 
-                <h3>{{directions | safe}}</h3>
+                <div id="explore_directions">
+                    {{directions[0] | safe}}
+                </div>
+                <div id="game_directions">
+                    {{directions[1] | safe}}
+                </div>
                 {% for doc in items[0] %}
                     <img class="clickable-doc" id = "{{doc[0][:-4]}}" src="../static/images/explore/{{doc[0][:-4]}}.jpg" alt="{{doc[0][:-4]}}.jpg" style="left:{{loop.index*6}}%">
                 {% endfor %}
@@ -98,6 +102,7 @@
         <script>
         $(document).ready(function(){
             //hide all of the Containers
+            $("#game_directions").hide();
             $(".FixedHeightContainerText").hide();
             $(".FixedHeightContainerMC").hide();
 
@@ -174,6 +179,8 @@
             //shows through 
             $(".not-game-content").toggleClass("not-game-content game-content");
             $(".game-content").show();
+            $("#explore_directions").hide();
+            $("#game_directions").show();
 
             //The styling needs to change on the main container for the game 
             // so this will change the styling
