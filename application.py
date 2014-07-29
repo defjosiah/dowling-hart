@@ -38,6 +38,10 @@ def explore():
                         directions=(f,g),
                         tot_points=len(util.backg_render))
 
+@app.route('/process/')
+def process():
+    return "<a href='/'>Process to Index</a>"
+
 #helper functions
 def build_background_timeline():
     """
