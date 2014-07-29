@@ -182,3 +182,23 @@ body {
     width: 8%;
     text-align: center;
 }
+
+
+.checkanswer {
+    position: absolute;
+    bottom: 22.5%;
+    left: 46%;
+    height: 5%;
+    width: 15%;
+    background-color: rgba(87, 86, 85, 1.0);
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    vertical-align: middle;
+    color: white;
+}

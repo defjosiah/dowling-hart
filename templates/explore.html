@@ -99,7 +99,7 @@
 
         <div class="continue"><a id="done" href="#" onclick=init() alt="Continue to next section" title="Continue to next section"><i class="fa fa-arrow-circle-right fa-5x"></i></a></div>
 
-        <div id="checkanswer"><a href="#" onclick=checkAnswer()><i class="fa fa-arrow-circle-right fa-2x">Check Answer</i></a></div>
+        <div class="nothing"><a class="fill-div" href="#" onclick=checkAnswer()>Check Answer</a></div>
 
         <script>
         $(document).ready(function(){
@@ -111,10 +111,10 @@
             //Hide the not-game-content view which 
             //includes the drawn timeline
             $(".not-game-content").hide();
-            //$(".continue").hide();
+            $(".nothing").hide();
+            $(".continue").hide();
         });
-
-        /*
+        
         $(".clickable-doc").click(function(){
             //Hide all before, to make sure only one is 
             //open at a time 
@@ -125,6 +125,7 @@
             //has been toggled, prevents the drawn timeline boxes
             //from being ignored on click 
             $(".game-content").hide();
+            $(".checkanswer").hide();
             $(".FixedHeightContainerInit").hide();
             $(".FixedHeightContainerGame").hide();
 
@@ -140,7 +141,6 @@
             $(this).addClass('clicked');
         });
 
-        */
 
         function checkAnswer() {
             if( $(".correct").length == 4 ) {
@@ -157,6 +157,7 @@
             $(".game-content").show();
             $(".FixedHeightContainerInit").show();
             $(".FixedHeightContainerGame").show();
+            $(".checkanswer").show();
 
             //once go-back is reached, check if the proper number of 
             //documents has been read
@@ -186,6 +187,12 @@
             //functions again 
             $(".continue").hide();
             $(".continue").toggleClass("continue immaterial");
+
+            
+            //same thing as before, switch to the check answer class 
+            //and the center button appears
+            $(".nothing").toggleClass("nothing checkanswer");
+            $(".checkanswer").show();
 
             //Setup the game
 
@@ -220,7 +227,6 @@
                 }
             }
         }
-
         </script>
     </body>
 </html>
