@@ -2,8 +2,9 @@
 #Richard "Dick" Dowling is born
 
 ##Before he was famous
-Richard "Dick" W. Dowling was born in Tuam, Ireland, in **1837**. He immigrated with his family to the United States in **1846** because of a potato famine in Ireland. They settled in New Orleans, but Dowling moved to Houston in **1857**. He started his first bar less than a year after arriving, and, among other business ventures, helped organize Houston’s first gas and streetcar companies. Though young and new to town, Dowling had already made a name for himself in Houston by the start of the Civil War.
+Richard "Dick" W. Dowling was born in Tuam, Ireland, in **1837**. He immigrated with his family to the United States in **1846** because of a potato famine in Ireland. They settled in New Orleans, but Dowling moved to Houston in **1857**. He started his first bar less than a year later, and, among other business ventures, helped organize Houston’s first gas and streetcar companies. Though young and new to town, Dowling had already made a name for himself in Houston by the start of the Civil War.
 
 ##Pictures
 
+{{ figure("The pinpoint on the map indicates Dowling's birthplace.", src="http://../../static/images/timeline/timeline1.jpg") }}
 {{ figure("This advertisement promotes one of Dowling's bars, the Bank of Bacchus.", src="http://exhibits.library.rice.edu/items/show/514") }}
