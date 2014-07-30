@@ -6,7 +6,7 @@ The statue made in Dowling’s honor, unveiled on St. Patrick's Day in **1905**,
 
 ##Pictures
 
-
+{{ figure(caption="This image illustrates the statue's prominent position in front of city hall at the time of its dedication.", src="/static/images/timeline/timeline4.jpg") }}
 {{ figure(caption="This newspaper clipping shows the statue being moved from city hall to Sam Houston Park.", src="http://exhibits.library.rice.edu/files/fullsize/d03f454834e05331fe6c97c528853420.jpg") }}
 
 
