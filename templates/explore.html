@@ -90,7 +90,7 @@
             </div>
         
             <div class="FixedHeightContainerMC", id="{{doc[0][:-4]}}mc">
-                <div class="Content", id="ContentMC">
+                <div class="Content", class="ContentMC", id="{{doc[2]["md"]["answers"]}}">
                     &nbsp;
                     &nbsp;
                     {{ doc[2]["md"]["mc"] | safe }}
@@ -174,7 +174,13 @@
             //this won't be triggered if the class has been toggled 
             //so that .clicked is .immaterial
             if ($(".clicked").length == $(".clickable-doc").length) {
-                $(".continue").show();
+                if($(".correctMC").length == 8) {
+                    $(".continue").show();
+                }
+                else {
+                    alert("Make sure you've answered all the Multiple Choice questions!");
+                }
+                
             } else {
                 $(".continue").hide();    
             }
@@ -240,6 +246,25 @@
                 }
             }
         }
+
+        //react when an element of a list is selected
+        $("li").click(function(){
+            var selected = jQuery.trim($(this).text());
+            var answers = $(this).parent().parent().attr("id");
+            if(answers.indexOf(selected) > -1 ) {
+                $(this).css("color", "green");
+                $(this).addClass('correctMC');
+            }
+            else {
+                alert("Try Again! Look at the Hints!");
+                var headings = $(this).parent().parent().children('h3');
+                // for (var i = headings.length - 1; i >= 0; i--) {
+
+                // };
+            //     //$(this).parent().parent().children('h3').css("color", "#EE3355"));
+            // }
+            }
+        });
 
         </script>
         <script src="/static/js/footnotes.js" type="text/javascript"></script>
