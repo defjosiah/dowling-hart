@@ -1,9 +1,7 @@
 <!-- author:Clare Jensen, date:1882, mc:da -->
 
 <text 
-#Memory after the War
-
-##Jefferson Davis speech in New Orleans.
+#Speech about the battle
 
 **Text**
 
