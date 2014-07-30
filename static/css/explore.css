@@ -193,9 +193,9 @@ sup {line-height: 0;}
 
 .back-button {
     position: absolute;
-    right: 3%;
-    top: 3%;
-    color: rgba(87, 86, 85, 1.0);
+    left: 90%;
+    top: 6%;
+    /*color: rgba(87, 86, 85, 1.0);*/
 }
 
 .arrow-down {

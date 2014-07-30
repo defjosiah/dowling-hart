@@ -95,10 +95,10 @@
                     &nbsp;
                     {{ doc[2]["md"]["mc"] | safe }}
                 </div>
-                <div class="back-button" onclick=goBack()>
-                    <i class="fa fa-arrow-left"></i> Back
-                </div>
             </div>
+                <a class="back-button nothing" onclick=goBack()>
+                    <i class="fa fa-times-circle fa-2x"></i>
+                </a>
 
         {% endfor %}
 
@@ -127,6 +127,7 @@
             //open at a time
             $(".FixedHeightContainerText").hide();
             $(".FixedHeightContainerMC").hide();
+            $(".back-button").hide();
 
             //will only need to be hidden if the class
             //has been toggled, prevents the drawn timeline boxes
@@ -143,6 +144,7 @@
             $(".Content h3").css("font-size", "0em");
             $("#" + this.id + "text").show();
             $("#" + this.id + "mc").show();
+            $(".back-button").show();
 
             //keep track of the clicked argument, the go-back function
             //evalueates this to show the continue argument
@@ -169,6 +171,7 @@
             $(".FixedHeightContainerInit").show();
             $(".FixedHeightContainerGame").show();
             $(".checkanswer").show();
+            $(".back-button").hide();
 
             //once go-back is reached, check if the proper number of 
             //documents has been read
