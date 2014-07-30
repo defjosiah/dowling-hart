@@ -1,42 +1,42 @@
 <!-- author:Clare Jensen, date:1997, mc:aa -->
 
 <text
-#Civil Rights and Dick Dowling
+#Article about Dowling Street
 
-##The Name of the Road . . . Dowling Street
 
 **Text**
 
-In Houston, what if the main boulevard of a Jewish section of town were named after a Nazi* war hero? Could anyone believe this sick irony? But an exact analogy of this outrage is what African-American Fifth Ward writer/historian and social worker Bob Lee claims has happened.
+In Houston, what if the main boulevard of a Jewish section of town were named after a Nazi[^1] war hero? Could anyone believe this sick irony? But an exact analogy of this outrage is what African-American Fifth Ward writer/historian and social worker Bob Lee claims has happened.
 Or something like that.
 His subject is not a Jewish neighborhood, but a Black neighborhood. And the namesake of the street in question was not a Nazi war hero, but a hero of the Confederacy.
 I’m talking about Richard W. (“Dick”) Dowling, “The Hero of Sabine Pass,” and the Third Ward street that bears his name.
-Dick Dowling was a saloon* keeper in Houston before the Civil War and again after it ended. He was a lieutenant in the Confederate Army who’s claim to fame stems from his role in thwarting Union general Nathaniel Banks’ attempt to invade Texas at the Battle of Sabine Pass -- the only Civil War battle that took place on Texas soil. After the war, Dowling’s name was enshrined* in “Dick Dowling Klan No. 25,” the original Ku Klux* chapter in Port Arthur, Texas; also, a statue of Dowling stands in Houston’s Hermann Park. Worse, his name was bestowed* upon a major Houston thoroughfare* -- Dowling Street -- which serves as a primary thoroughfare through the Third ward, a predominantly African-American neighborhood.
+Dick Dowling was a saloon[^2] keeper in Houston before the Civil War and again after it ended. He was a lieutenant in the Confederate Army who’s [sic] claim to fame stems from his role in thwarting[^3] Union general Nathaniel Banks’ attempt to invade Texas at the Battle of Sabine Pass -- the only Civil War battle that took place on Texas soil. After the war, Dowling’s name was enshrined[^4] in “Dick Dowling Klan No. 25,” the original Ku Klux[^5] chapter in Port Arthur, Texas; also, a statue of Dowling stands in Houston’s Hermann Park. Worse, his name was bestowed[^6] upon a major Houston thoroughfare[^7] -- Dowling Street -- which serves as a primary thoroughfare through the Third ward, a predominantly African-American neighborhood.
 Bob Lee wrote of this insult in a poem:
 “The South will rise again in the old confederate states, all the streets in the Black communities will be named Robert E. Lee Boulevard, Stonewall Jackson Drive, Jeff Davis Parkway leading to the old massa’s pearly gates…
-“You...won’t find a George Armstrong Custer* Street, running through the Lakota Sioux* County Seat…
+“You...won’t find a George Armstrong Custer[^8] Street, running through the Lakota Sioux[^9] County Seat…
 “So I ask again, Who is this Dick Dowling and what is he to you?
 “What is Adolf Hitler to the Jew?
 “Ask what is Custer to the Sioux?”
 The poem is called “Da Dowling Street Blues.” 
->
 
-<glossary
-Nazis: German organization in World War II that fought against the United States. They are infamous for killing millions of innocent Jews. 
+[^1]: German organization in World War II that fought against the United States. They are infamous for killing millions of innocent Jews. 
 
-enshrined: cherished or preserved
+[^2]: bar
 
-saloon: bar
+[^3]: preventing
 
-Ku Klux Klan: a white supremacist group formed in the 1860s to harass African-Americans
+[^4]: cherished or preserved
 
-bestowed: given
+[^5]: Ku Klux Klan: a white supremacist group formed in the 1860s to harass African-Americans
 
-thoroughfare: road or passageway
+[^6]: given
 
-George Armstrong Custer: United States army officer in the Civil and Indian Wars who is famous for fighting Native Americans
+[^7]: road or passageway
 
-Sioux: a specific group of Native Americans
+[^8]: United States army officer who is famous for fighting Native Americans
+
+[^9]: a specific group of Native Americans
+
 >
 
 <mc
