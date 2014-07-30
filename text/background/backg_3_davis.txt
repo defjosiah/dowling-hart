@@ -2,12 +2,12 @@
 #Jefferson Davis praises Dowling in speech
 
 ##Dowling as Confederate war hero
-Jefferson Davis[^1] was still singing Dowling's praises in a famous **1882** speech. Houston also remembered Dowling. In **1892**, the city renamed the streets surrounding Emancipation Park (a central location for Houston’s African-American community) to Dowling and Tuam (after Tuam, Ireland, where Dowling was born).
+Jefferson Davis[^1] was still singing Dowling's praises in a famous **1882** speech. Houston also remembered Dowling. The city renamed the streets surrounding Emancipation Park (a central location for Houston’s African-American community) to Dowling and Tuam (after Tuam, Ireland, where Dowling was born).
 
 [^1]: Jefferson Davis: The only president of the Confederacy. He was Secretary of War, a senator, and a congressman before the formation of the Confederacy.
 
 ##Pictures
 
-{{ figure(caption="This 1866 painting presents Dick Dowling primarily as a Confederate military hero, instead of as a Houston businessman.", src="http://exhibits.library.rice.edu/files/fullsize/dowling_ea27d8f322.jpg") }}
+{{ figure(caption="This 1866 painting portrays Dowling primarily as a Confederate military hero, instead of as a Houston businessman.", src="http://exhibits.library.rice.edu/files/fullsize/dowling_ea27d8f322.jpg") }}
 
 {{ figure(caption="East Broadway was renamed to Dowling Street in 1892.", src="http://exhibits.library.rice.edu/files/fullsize/7f62576cd7c8f6f0bfadde60aa313dff.jpg") }}
