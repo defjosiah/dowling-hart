@@ -1,7 +1,7 @@
 <!-- author:Clare Jensen, date:1863, mc:none -->
 #Battle of Sabine Pass
  
-##Background
+##The battle that made Dowling famous
 The Civil War erupted in **1861** with the assault on Fort Sumter, but the tensions that fueled the conflict had been building for a long time before the election of Abraham Lincoln. Economic, political, and cultural differences between the North and South, especially on the issue of slavery, grew increasingly drastic, until the differences had grown so great that Southern states felt compelled to secede.
 
 Dowling enlisted in the Davis Guards of the Confederacy in **August 1861**. Almost everyone in the Davis Guards was Irish. They played an important role in recapturing Galveston from the Union in **January 1863**, but their claim to fame came later that year.
@@ -12,6 +12,5 @@ The war ended on **April 9, 1865**, with Robert E. Lee's surrender to Ulysses S.
 
 ##Pictures
 
-{{ figure("Battle of Sabine Pass", "https://cloud.githubusercontent.com/assets/6454900/3675037/bf3dba84-127b-11e4-87e0-0dc3bc4c2c6b.jpg") }}
+{{ figure("This flag, sometimes flown in battle by Southern armies, symbolizes the Confederacy.", src="http://upload.wikimedia.org/wikipedia/commons/f/f4/Confederate_flag.jpg") }}
 
-{{ figure("Dowling's Gravestone", "https://cloud.githubusercontent.com/assets/6454900/3676606/2391c54e-128a-11e4-804c-b04a9b438a8b.JPG") }}
