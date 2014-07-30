@@ -49,10 +49,10 @@ var Footnotes = {
         $(document.body).append(div);
 
         var left = position.left;
-        if(left + 420  > $('.FixedHeightContainerText').width())
-            left = $('.FixedHeightContainerText').width() - 220;
+        if(left + 420  > $(window).width() + $(window).scrollLeft())
+            left = $(window).width() - 420 + $(window).scrollLeft();
         var top = position.top+20;
-        if(top + div.height() > $('.FixedHeightContainerText').height())
+        if(top + div.height() > $(window).height() + $(window).scrollTop())
             top = position.top - div.height() - 15;
         div.css({
             left:left,
