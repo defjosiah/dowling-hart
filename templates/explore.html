@@ -45,7 +45,7 @@
 
                 <!--css click event hack, tabindex needed for safari-->
                 <a class="clickable-item" href="#" tabindex="{{doc[2]["date"]}}" ><i class="fa fa-circle"></i>&nbsp; {{doc[2]["date"]}} </a>
-                <div class="click-event" style="position: absolute; top: -50%;"> {{doc[0]}} </div>
+                <div class="click-event" style="position: absolute; bottom: -50%; width: 400px; text-align: left;"> {{doc[2]["title"]}} </div>
 
             </div>
         {% endfor %}
