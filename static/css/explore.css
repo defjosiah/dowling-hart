@@ -155,6 +155,8 @@ sup {line-height: 0;}
     font-weight: 400;
 }
 
+.FixedHeightContainerMC .Content li p {cursor: pointer;}
+
 .FixedHeightWidth {
     position:centered;
     height: 70%;
