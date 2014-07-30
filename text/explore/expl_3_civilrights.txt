@@ -52,7 +52,7 @@ The poem is called “Da Dowling Street Blues.”
 
 4. Was a corrupt politician
 
-tip: Have you considered the author’s emphasis on the street's location in an African-American neighborhood?
+###tip: Have you considered the author’s emphasis on the street's location in an African-American neighborhood?
 
 
 ##Why does the author find the name of Dowling Street ironic?
@@ -65,7 +65,7 @@ tip: Have you considered the author’s emphasis on the street's location in an 
 
 4. Robert E. Lee is more famous than Dowling
 
-tip: Have you considered that, as a Confederate, Dowling would have fought to protect slavery?
+###tip: Have you considered that, as a Confederate, Dowling would have fought to protect slavery?
 >
 
 <answers

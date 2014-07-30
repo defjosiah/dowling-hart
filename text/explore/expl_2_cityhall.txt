@@ -42,7 +42,7 @@ The speakers' stand was erected just in the rear of the monument. There were sea
 
 4. All of the above
 
-tip: Have you considered the size of the event and the excitement of the crowd?
+###tip: Have you considered the size of the event and the excitement of the crowd?
 
 ##The bright colors and size of the crowd indicate that Houstonians at the time thought Dick Dowling was a(n):
 
@@ -54,7 +54,7 @@ tip: Have you considered the size of the event and the excitement of the crowd?
 
 4. Successful politician
 
-tip: Have you considered how positively the event is portrayed? 
+###tip: Have you considered how positively the event is portrayed? 
 >
 
 <answers

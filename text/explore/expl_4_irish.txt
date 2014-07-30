@@ -28,7 +28,7 @@ Today we are assembled beneath the statue of a hero [Dowling] with the shamrock 
 
 4. Both a and c
 
-tip: The speaker calls Dowling a son of what?
+###tip: The speaker calls Dowling a son of what?
 
 ##Given the focus of the document, who is the speaker most likely to be? 
 
@@ -40,7 +40,7 @@ tip: The speaker calls Dowling a son of what?
 
 4. The sculptor of the statue
 
-tip: Have you considered the emphasis on Dowling’s ethnic heritage?
+###tip: Have you considered the emphasis on Dowling’s ethnic heritage?
 >
 
 <answers 
