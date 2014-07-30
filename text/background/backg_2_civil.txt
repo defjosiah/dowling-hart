@@ -19,6 +19,7 @@ The war ended on **April 9, 1865**, with Robert E. Lee[^5]'s surrender to Ulysse
 
 ##Pictures
 
+{{ figure("This image provides a basic visual summary of the battle without taking into account any complicating factors.", src="/static/images/timeline/timeline2.jpg") }}
 {{ figure("This flag, sometimes flown in battle by Southern armies, symbolizes the Confederacy.", src="http://upload.wikimedia.org/wikipedia/commons/f/f4/Confederate_flag.jpg") }}
 
 
