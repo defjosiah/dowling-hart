@@ -253,11 +253,10 @@
             var selected = jQuery.trim($(this).text());
             var answers = $(this).parent().parent().attr("id");
             if(answers.indexOf(selected) > -1 ) {
-                $(this).css("color", "#EE3355");
                 $(this).addClass('correctMC');
             }
             else {
-                alert("Try Again! Look at the Hints!");
+                $(this).addClass('wrongMC');
                 $(".Content h3").css("font-size", "1.0em");
             }
         });

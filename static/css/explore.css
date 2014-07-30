@@ -88,6 +88,34 @@ sup {line-height: 0;}
     color: rgba(87, 86, 85, 1.0);
 }
 
+.correctMC {color: #859900;}
+.correctMC {list-style-type: none;}
+.correctMC p:before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left:-35px;
+    margin-right:15px;
+    margin-bottom:0;
+    margin-top:0;
+}
+
+.wrongMC {color: #EE3355;}
+.wrongMC {list-style-type: none;}
+.wrongMC p:before {
+    content: "\f00d";
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left:-35px;
+    margin-right:15px;
+    margin-bottom:0;
+    margin-top:0;
+}
+
 .FixedHeightContainerInit {
     position:absolute;
     left: 12%;
