@@ -12,5 +12,5 @@ The war ended on **April 9, 1865**, with Robert E. Lee's surrender to Ulysses S.
 
 ##Pictures
 
-{{ figure("This 1866 painting presents Dick Dowling primarily as a Confederate military hero, instead of as a Houston businessman.", src="http://exhibits.library.rice.edu/files/fullsize/dowling_ea27d8f322.jpg") }}
+{{ figure("This flag, sometimes flown in battle by Southern armies, symbolizes the Confederacy.", src="http://upload.wikimedia.org/wikipedia/commons/f/f4/Confederate_flag.jpg") }}
 
