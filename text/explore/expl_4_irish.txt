@@ -1,24 +1,19 @@
 <!-- author:Clare Jensen, date:1997, mc:bb -->
 
 <text
-#Irish Heritage
-
-##Dr. Claffey's Speech
+#Speech about St. Patrick
 
 **Text**
 
-Today we are assembled beneath the statue of a hero [Dowling] with the shamrock at his feet and a roll of honour bearing names one would expect to find on a patriots’ memorial in Ireland. This is a good place to remember St Patrick not just for the geographical facts of his life but to recall that Patrick was Irish by adoption rather than birth; that he started in Ireland on the lowest rung of the ladder, in fact as a slave, that eventually by the quality of his life he won the hearts of his contemporaries*; that he had a dream - a dream about the brotherhood of man. In short Patrick does not belong to the Ireland of the past but to the world-wide Irish diaspora* of the present. And his spirit is reflected in this memorial, for Dick Dowling is one of Patrick’s and Ireland’s illustrious* sons of whom Houston and Tuam* are justly proud.
->
+Today we are assembled beneath the statue of a hero [Dowling] with the shamrock at his feet and a roll of honour bearing names one would expect to find on a patriots’ memorial in Ireland. This is a good place to remember St Patrick not just for the geographical facts of his life but to recall that Patrick was Irish by adoption rather than birth; that he started in Ireland on the lowest rung of the ladder, in fact as a slave, that eventually by the quality of his life he won the hearts of his contemporaries[^1]; that he had a dream - a dream about the brotherhood of man. In short Patrick does not belong to the Ireland of the past but to the world-wide Irish diaspora[^2] of the present. And his spirit is reflected in this memorial, for Dick Dowling is one of Patrick’s and Ireland’s illustrious[^3] sons of whom Houston and Tuam[^4] are justly proud.
 
-<glossary
+[^1]: people belonging to the same time period as each other 
 
-contemporaries: people belonging to the same time period as each other 
+[^2]: an ethnic group that migrated all over the world from the native homeland
 
-diaspora: an ethnic group that migrated all over the world from the native homeland
+[^3]: famous or distinguished
 
-illustrious: famous or distinguished
-
-Tuam: the town in Ireland where Dick Dowling was born
+[^4]: the town in Ireland where Dick Dowling was born
 >
 
 <mc
