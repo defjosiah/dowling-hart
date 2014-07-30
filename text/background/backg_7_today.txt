@@ -10,3 +10,4 @@ Despite this trend, Dowling is remembered differently by other Houstonians and i
 ##Pictures
 
 {{ figure(caption="A plaque in Dowling's hometown in County Tuam, Ireland, mentions his business successes as well as his role in the Civil War.", src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Dick_Dowling_Plaque_Tuam.JPG/494px-Dick_Dowling_Plaque_Tuam.JPG") }}
+{{ figure(caption="Dowling's statue, initially a Confederate memorial, has become a site of controversy.", src="http://exhibits.library.rice.edu/files/fullsize/15ed455386b7d0b27914749f4c563c1e.jpg") }}
