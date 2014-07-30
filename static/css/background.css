@@ -2,6 +2,10 @@ body {
 	font-family: "Fira Sans";
 }
 
+sup {line-height: 0;}
+
+.footnote ol {list-style-type: disc;}
+
 a {
     text-decoration: none;
     color: #EE3355;
