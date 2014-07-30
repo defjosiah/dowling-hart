@@ -7,35 +7,35 @@
 
 There are few in this audience who, if I asked them, could tell me who
 commanded at Sabine Pass. And yet, that battle of Sabine Pass was more
-remarkable than the battle of Thermopylae[^1], and when it has orators[^2] and
-poets to celebrate it, will be so esteemed[^3] by mankind.  The disparity[^4]
-of numbers was greater, the inequality of arms was greater.  When an
-iron-clad[^5] fleet came to pass the Sabine so as to invade the interior of
-Texas, an Irish Lieutenant, with forty-two men behind a little mud fort, having
-only field guns[^6] for its armament[^7], held them in check[^8]. When he asked
-for instructions he was told he had better retire[^9]. But this gallant[^10]
-man said: "We will never retire!"
+remarkable than the battle of Thermopylae[^thermopylae], and when it has
+orators[^orators] and poets to celebrate it, will be so esteemed[^esteemed] by
+mankind.  The disparity[^disparity] of numbers was greater, the inequality of
+arms was greater.  When an iron-clad[^iron-clad] fleet came to pass the Sabine
+so as to invade the interior of Texas, an Irish Lieutenant, with forty-two men
+behind a little mud fort, having only field guns[^guns] for its
+armament,[^armament] held them in check.[^check] When he asked for instructions
+he was told he had better retire.[^retire] But this gallant[^gallant] man said:
+"We will never retire!"
 
+[^thermopylae]: battle of Thermopylae: conflict in ancient Greece famous for its overwhelming odds
 
-[^1]: battle of Thermopylae: conflict in ancient Greece famous for its overwhelming odds
+[^orators]: orator: a person who gives a speech
 
-[^2]: orator: a person who gives a speech
+[^esteemed]: esteemed: honored and praised
 
-[^3]: esteemed: honored and praised
+[^disparity]: disparity: inequality or difference
 
-[^4]: disparity: inequality or difference
+[^iron-clad]: iron-clad: a boat covered in iron plates or armor
 
-[^5]: iron-clad: a boat covered in iron plates or armor
+[^guns]: field guns: smaller guns that are easily moved
 
-[^6]: field guns: smaller guns that are easily moved
+[^armament]: armament: the weapons and equipment for defense
 
-[^7]: armament: the weapons and equipment for defense
+[^check]: held them in check: restrained them
 
-[^8]: held them in check: restrained them
+[^retire]: retire: retreat or withdraw
 
-[^9]: retire: retreat or withdraw
-
-[^10]: gallant: brave or courageous
+[^gallant]: gallant: brave or courageous
 
 <mc 
 ##The speaker thinks that: 

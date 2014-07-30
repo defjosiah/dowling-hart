@@ -5,29 +5,31 @@
 
 **Text**
 
-“God save Ireland” and “Dixie[^1]” were the strains[^2] that were blended in one grand harmony today.
+“God save Ireland” and "Dixie"[^Dixie] were the strains[^strains] that were blended in one grand harmony today.
+
 [...]
-Amid deafening cheers[^3] the white canvas[^4] that enwrapped[^5] the marble statue of Lieutenant Richard W. Dowling loosened its folds as the cord tightened . . . The elaborate[^6] program that the committee in charge of the monument unveiling[^7] had prepared was carried out in detail, and in spite of threatening skies[^8] the streets were thronged[^9].
 
-A jam of humanity[^10] surged[^11] about the corner of Preston avenue and Travis streets, where the exercises[^12] occurred and where the splendid[^13] monument stands in the parked grounds with the city hall towering behind it in most effective background.
+Amid deafening cheers[^cheers] the white canvas[^canvas] that enwrapped[^enwrapped] the marble statue of Lieutenant Richard W. Dowling loosened its folds as the cord tightened . . . The elaborate[^elaborate] program that the committee in charge of the monument unveiling[^unveiling] had prepared was carried out in detail, and in spite of threatening skies[^skies] the streets were thronged.[^thronged]
 
-The speakers' stand was erected just in the rear of the monument. There were seats reserved for 150 members of the local committees and distinguished visitors. The stand was decorated in the chosen colors of the day, yellow, white and green, and above it fluttered the flags of the United States, Ireland and the Stars and Bars[^14]. Towering palms graced the base of the monument. The great body of school children was grouped in the plaza[^15] in front of the city hall.
+A jam of humanity[^humanity] surged[^surged] about the corner of Preston avenue and Travis streets, where the exercises[^exercises] occurred and where the splendid[^splendid] monument stands in the parked grounds with the city hall towering behind it in most effective background.
 
-[^1]: Dixie: the Confederate national anthem
-[^2]: strains: melodies or songs
-[^3]: Amid deafening cheers: while the crowd cheered loudly
-[^4]: canvas: a cloth
-[^5]: enwrapped: covered
-[^6]: elaborate: complicated
-[^7]: unveiling: ceremony to reveal a work of art for the first time
-[^8]: threatening skies: stormy skies
-[^9]: thronged: gathered in a large group
-[^10]: A jam of humanity: a large group of people
-[^11]: surged: to move forward like a wave
-[^12]: exercises: events of a celebration 
-[^13]: splendid: beautiful or awesome
-[^14]: Stars and Bars: the first flag of the Confederacy
-[^15]: plaza: a public square or open space in a city
+The speakers' stand was erected just in the rear of the monument. There were seats reserved for 150 members of the local committees and distinguished visitors. The stand was decorated in the chosen colors of the day, yellow, white and green, and above it fluttered the flags of the United States, Ireland and the Stars and Bars.[^Bars] Towering palms graced the base of the monument. The great body of school children was grouped in the plaza[^plaza] in front of the city hall.
+
+[^Dixie]: Dixie: the Confederate national anthem
+[^strains]: strains: melodies or songs
+[^cheers]: Amid deafening cheers: while the crowd cheered loudly
+[^canvas]: canvas: a cloth
+[^enwrapped]: enwrapped: covered
+[^elaborate]: elaborate: complicated
+[^unveiling]: unveiling: ceremony to reveal a work of art for the first time
+[^skies]: threatening skies: stormy skies
+[^thronged]: thronged: gathered in a large group
+[^humanity]: A jam of humanity: a large group of people
+[^surged]: surged: to move forward like a wave
+[^exercises]: exercises: events of a celebration 
+[^splendid]: splendid: beautiful or awesome
+[^Bars]: Stars and Bars: the first flag of the Confederacy
+[^plaza]: plaza: a public square or open space in a city
 
 >
 

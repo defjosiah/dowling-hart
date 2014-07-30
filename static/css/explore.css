@@ -9,6 +9,8 @@ body {
 
 sup {line-height: 0;}
 
+.footnote ol {list-style-type: disc;}
+
 .opaque {
     position: absolute;
     z-index: -1;

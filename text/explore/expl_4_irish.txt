@@ -5,15 +5,15 @@
 
 **Text**
 
-Today we are assembled beneath the statue of a hero [Dowling] with the shamrock at his feet and a roll of honour bearing names one would expect to find on a patriots’ memorial in Ireland. This is a good place to remember St Patrick not just for the geographical facts of his life but to recall that Patrick was Irish by adoption rather than birth; that he started in Ireland on the lowest rung of the ladder, in fact as a slave, that eventually by the quality of his life he won the hearts of his contemporaries[^1]; that he had a dream - a dream about the brotherhood of man. In short Patrick does not belong to the Ireland of the past but to the world-wide Irish diaspora[^2] of the present. And his spirit is reflected in this memorial, for Dick Dowling is one of Patrick’s and Ireland’s illustrious[^3] sons of whom Houston and Tuam[^4] are justly proud.
+Today we are assembled beneath the statue of a hero [Dowling] with the shamrock at his feet and a roll of honour bearing names one would expect to find on a patriots’ memorial in Ireland. This is a good place to remember St Patrick not just for the geographical facts of his life but to recall that Patrick was Irish by adoption rather than birth; that he started in Ireland on the lowest rung of the ladder, in fact as a slave, that eventually by the quality of his life he won the hearts of his contemporaries;[^contemporaries] that he had a dream - a dream about the brotherhood of man. In short Patrick does not belong to the Ireland of the past but to the world-wide Irish diaspora[^diaspora] of the present. And his spirit is reflected in this memorial, for Dick Dowling is one of Patrick’s and Ireland’s illustrious[^illustrious] sons of whom Houston and Tuam[^Tuam] are justly proud.
 
-[^1]: contemporaries: people belonging to the same time period as each other 
+[^contemporaries]: contemporaries: people belonging to the same time period as each other 
 
-[^2]: diaspora: an ethnic group that migrated all over the world from the native homeland
+[^diaspora]: diaspora: an ethnic group that migrated all over the world from the native homeland
 
-[^3]: illustrious: famous or distinguished
+[^illustrious]: illustrious: famous or distinguished
 
-[^4]: Tuam: the town in Ireland where Dick Dowling was born
+[^Tuam]: Tuam: the town in Ireland where Dick Dowling was born
 >
 
 <mc
