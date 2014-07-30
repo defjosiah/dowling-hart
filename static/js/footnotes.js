@@ -1,3 +1,5 @@
+// based on original script by Lukas Mathis
+// http://ignorethecode.net/blog/2010/04/20/footnotes/
 // this script requires jQuery
 $(document).ready(function() {
     Footnotes.setup();
