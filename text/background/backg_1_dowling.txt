@@ -6,5 +6,5 @@ Richard "Dick" W. Dowling was born in Tuam, Ireland, in **1837**. He immigrated 
 
 ##Pictures
 
-{{ figure("The pinpoint on the map indicates Dowling's birthplace.", src="http://../../static/images/timeline/timeline1.jpg") }}
-{{ figure("This advertisement promotes one of Dowling's bars, the Bank of Bacchus.", src="http://exhibits.library.rice.edu/items/show/514") }}
+{{ figure("The pinpoint on the map indicates Dowling's birthplace.", src="/static/images/timeline/timeline1.jpg") }}
+{{ figure("This advertisement promotes one of Dowling's bars, the Bank of Bacchus.", src="http://exhibits.library.rice.edu/files/original/51a7c6e6a99f395022d7d1bcd08515ca.jpg") }}
