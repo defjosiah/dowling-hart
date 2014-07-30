@@ -24,5 +24,18 @@
         </head>
     <body>
         <div class="opaque"></div>
+         <div id="continue"><a href="/explore/" alt="Continue to next section" title="Continue to next section"><i class="fa fa-arrow-circle-right fa-5x"></i></a></div>
+
+        <div class="FixedHeightAlert" id="intro" style="text-align: center">
+          <div class="Content">
+             {{ intro|safe }}
+          </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $("#intro").show();
+                $("#continue").show();    
+            });
+        </script>
     </body>
 </html>

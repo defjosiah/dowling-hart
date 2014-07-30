@@ -10,7 +10,8 @@ util = utility.UtilityFunc()
 
 @app.route('/')
 def index():
-    return render_template("index.html")
+    intro = utility.return_html('./text/index_intro.md', 'none')
+    return render_template("index.html", intro=intro)
 
 @app.route('/background/')
 def background():

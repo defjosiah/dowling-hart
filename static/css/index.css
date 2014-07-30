@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: #EE3355;
+}
+
 .opaque {
     position: absolute;
     z-index: -1;
@@ -9,4 +14,51 @@
     opacity: .4;
     width: 100%;
     height: 100%;
+}
+
+#continue {
+    position: absolute;
+    top: 40%;
+    right: 3%;
+    width: 8%;
+    text-align: center;
+}
+
+.FixedHeightAlert {
+    padding-top: 8%;
+    margin: 0 auto;
+    top: 32%;
+    height: 40%;
+    width:60%;
+    font-size: 0.9em;
+}
+
+.Content {
+    height:100%;
+    overflow:auto;
+    background-color:rgba(87, 86, 85, .8); 
+    color: white;
+}
+
+.Content h1,h2,p {
+    margin: 10px;
+}
+
+.Content h1 {
+    font-family: "Vollkorn";
+    font-size: 2.75em;
+    border-bottom: 0.1em solid #EE3355;
+}
+
+.Content h2 {
+    font-family: "Fira Sans";
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.Content p {
+    font-family: "Fira Sans";
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: 400;
 }
