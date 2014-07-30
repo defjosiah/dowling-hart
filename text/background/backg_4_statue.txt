@@ -1,12 +1,12 @@
 <!-- author:Clare Jensen, date:1905, mc:none -->
-#Dick Dowling statue is unveiled
+#Dick Dowling's statue is unveiled
 
-##Background
+##Former Confederates and Irishmen remember Dowling in Houston
 The statue made in Dowling’s honor, unveiled on St. Patrick's Day in **1905**, is Houston’s oldest piece of public art today. Houston held a massive parade with many significant political figures in attendance. At first, the statue was located in an important position in front of City Hall. However, in **1939**, the statue moved to Sam Houston Park because City Hall changed locations, and interest in Dowling decreased in Houston. After being placed in storage in **1957**, the statue was tucked away in an unimportant corner of Hermann Park in **1958**, where it still stands today.
 
 ##Pictures
 
-![Dowling state in front of City Hall](http://exhibits.library.rice.edu/files/fullsize/97f1fbea2f39643dc57d97bb3abfec5c.jpg)
-![Dowling statue moved](http://exhibits.library.rice.edu/files/fullsize/d03f454834e05331fe6c97c528853420.jpg)
+
+{{ figure(caption="This newspaper clipping shows the statue being moved from city hall to Sam Houston Park.", src="http://exhibits.library.rice.edu/files/fullsize/d03f454834e05331fe6c97c528853420.jpg") }}
 
 
