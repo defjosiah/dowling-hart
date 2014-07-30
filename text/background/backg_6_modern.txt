@@ -2,11 +2,12 @@
 #Dowling's statue is rededicated
 
 ##Dowling's Irish heritage is celebrated with silence about Confederate service
-On **March 16, 1997**, the statue was rededicated, but the focus of the ceremony was placed on Dowling's Irish heritage. The key speaker, Dr. Tony Claffey from Dowling's birthplace in Ireland, barely mentioned the Confederacy as he praised Dowling as an Irish immigrant to the United States. Dick Dowling’s status had changed drastically from the years following the Civil War. By 1997, most people considered it impossible to celebrate Dowling publicly for his participation in the Confederacy.
+On **March 16, 1997**, the statue was rededicated, but the focus of the ceremony was placed on Dowling's Irish heritage. The key speaker, Dr. Tony Claffey from Dowling's birthplace in Ireland, barely mentioned the Confederacy as he praised Dowling as an Irish immigrant to the United States. Dick Dowling’s status had changed drastically from the years immediately following the Civil War. By 1997, most people considered it impossible to celebrate Dowling publicly for his participation in the Confederacy.
 
 ##Pictures
 
 {{ figure(caption="This newspaper clipping emphasizes Dowling's Irish heritage through the bagpipes at the statue rededication.", src="/static/images/timeline/timeline6.jpg") }}
-{{ figure(caption="This photograph shows the statue of Dowling at its current location, the corner of Hermann Park.", src="static/images/timeline/timeline7.jpg") }}
+
+{{ figure(caption="This photograph shows the statue of Dowling at its current location in the corner of Hermann Park.", src="static/images/timeline/timeline7.jpg") }}
 
 
