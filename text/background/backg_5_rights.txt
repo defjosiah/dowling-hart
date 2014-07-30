@@ -1,10 +1,11 @@
 <!--author:Clare Jensen, date:1968, mc:none -->
 #Dick Dowling Middle School opens
 
-##Background
+##Controversy begins over Dowling's memory during the civil rights movement
 In the middle of the civil rights movement and the fight to desegregate Houston schools, Dick Dowling Middle School received its name in **Fall 1968**. Many Houstonians have thought that naming this school after Dowling was intended as a public offense against African-American Houstonians. The names of Dowling Street and Tuam Street have also been considered offensive toward Houston’s African-American community.
 
 ##Pictures
 
-![Dowling Middle School](http://exhibits.library.rice.edu/files/fullsize/08fca78f323e8a8fb62274e64f5cc730.jpg)
-![Emancipation Parade route](http://exhibits.library.rice.edu/files/fullsize/9b1c3a5c7a8501ec1e8ef5c90de22763.jpg)
+{{ figure(caption="Dowling Middle School is located in southwest Houston.", src="http://exhibits.library.rice.edu/files/fullsize/08fca78f323e8a8fb62274e64f5cc730.jpg") }}
+{{ figure(caption="Emancipation Park stands at the corner of Tuam and Dowling in a predominantly African-American neighborhood.", src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/EmancipationPark.JPG/800px-EmancipationPark.JPG") }}
+
