@@ -6,5 +6,7 @@ On **March 16, 1997**, the statue was rededicated, but the focus of the ceremony
 
 ##Pictures
 
+{{ figure(caption="This newspaper clipping emphasizes Dowling's Irish heritage through the bagpipes at the statue rededication.", src="/static/images/timeline/timeline6.jpg") }}
+{{ figure(caption="This photograph shows the statue of Dowling at its current location, the corner of Hermann Park.", src="static/images/timeline/timeline7.jpg") }}
 
 
