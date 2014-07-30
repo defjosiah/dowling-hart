@@ -6,5 +6,6 @@ Jefferson Davis was still singing Dowling's praises in a famous **1882** speech.
 
 ##Pictures
 
-![Emancipation Park](http://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/EmancipationPark.JPG/800px-EmancipationPark.JPG)
-![Dowling Street](http://exhibits.library.rice.edu/files/fullsize/7f62576cd7c8f6f0bfadde60aa313dff.jpg)
+{{ figure(caption="This 1866 painting presents Dick Dowling primarily as a Confederate military hero, instead of as a Houston businessman.", src="http://exhibits.library.rice.edu/files/fullsize/dowling_ea27d8f322.jpg") }}
+
+{{ figure(caption="East Broadway was renamed to Dowling Street in 1892.", src="http://exhibits.library.rice.edu/files/fullsize/7f62576cd7c8f6f0bfadde60aa313dff.jpg") }}
