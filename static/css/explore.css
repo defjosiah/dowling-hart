@@ -7,6 +7,8 @@ body {
     font-family: "Fira Sans";
 }
 
+sup {line-height: 0;}
+
 .opaque {
     position: absolute;
     z-index: -1;
@@ -70,6 +72,8 @@ body {
     background-color:rgba(87, 86, 85, .8); 
     color: white;
 }
+
+.FixedHeightContainerText a {color: #eee;}
 
 .FixedHeightContainerMC {
     position:absolute;
@@ -146,7 +150,7 @@ body {
 .Content p {
     font-family: "Fira Sans";
     font-size: 1.25em;
-    line-height: 1.25em;
+    line-height: 1.4em;
     font-weight: 400;
 }
 
@@ -209,3 +213,4 @@ a.fill-div {
     vertical-align: middle;
     color: white;
 }
+

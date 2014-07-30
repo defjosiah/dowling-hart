@@ -9,35 +9,35 @@
 
 There are few in this audience who, if I asked them, could tell me who
 commanded at Sabine Pass. And yet, that battle of Sabine Pass was more
-remarkable than the battle of Thermopylae*, and when it has orators* and poets
-to celebrate it, will be so esteemed* by mankind.
-The disparity* of numbers was greater, the inequality of arms was greater.
-When an iron-clad* fleet came to pass the Sabine so as to invade the interior
-of Texas, an Irish Lieutenant, with forty-two men behind a little mud fort,
-having only field guns* for its armament*, held them in check*. When he asked
-for instructions he was told he had better retire*. But this gallant* man
-said: "We will never retire!""
->
+remarkable than the battle of Thermopylae[^1], and when it has orators[^2] and
+poets to celebrate it, will be so esteemed[^3] by mankind.  The disparity[^4]
+of numbers was greater, the inequality of arms was greater.  When an
+iron-clad[^5] fleet came to pass the Sabine so as to invade the interior of
+Texas, an Irish Lieutenant, with forty-two men behind a little mud fort, having
+only field guns[^6] for its armament[^7], held them in check[^8]. When he asked
+for instructions he was told he had better retire[^9]. But this gallant[^10]
+man said: "We will never retire!""
 
-<glossary
-battle of Thermopylae: conflict in ancient Greece famous for its overwhelming odds
 
-orator: a person who gives a speech
+[^1]: battle of Thermopylae: conflict in ancient Greece famous for its overwhelming odds
 
-disparity: inequality or difference
+[^2]: orator: a person who gives a speech
 
-iron-clad: a boat covered in iron plates or armor
+[^3]: esteemed: honored and praised
 
-field guns: smaller guns that are easily moved
+[^4]: disparity: inequality or difference
 
-armament: the weapons and equipment for defense
+[^5]: iron-clad: a boat covered in iron plates or armor
 
-held them in check: restrained them
+[^6]: field guns: smaller guns that are easily moved
 
-retire: retreat or withdraw
+[^7]: armament: the weapons and equipment for defense
 
-gallant: brave or courageous
->
+[^8]: held them in check: restrained them
+
+[^9]: retire: retreat or withdraw
+
+[^10]: gallant: brave or courageous
 
 <mc 
 ##The speaker thinks that: 

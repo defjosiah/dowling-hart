@@ -131,7 +131,8 @@ def return_html(path, mc):
         # (key,value) into {key: value}
         a = dict(tuple(map(lambda x: (x[0], markdown.markdown(x[1], 
                                     output_format="html5",
-                                    safe_mode=False) ), 
+                                    safe_mode=False,
+                                    extensions=["footnotes(BACKLINK_TEXT=)"]) ), 
                                     temp_dict.items())))
         return a
 
