@@ -4,6 +4,7 @@ body {
 
 sup {line-height: 0;}
 
+.footnote {clear: both;}
 .footnote ol {list-style-type: disc;}
 
 a {
@@ -61,6 +62,8 @@ a {
     height: 70%;
     width:75%;
 }
+
+.FixedHeightContainer a {color: #eee;}
 
 .FixedHeightAlert {
     padding-top: 8%;
