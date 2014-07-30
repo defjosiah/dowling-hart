@@ -96,7 +96,7 @@
                     {{ doc[2]["md"]["mc"] | safe }}
                 </div>
             </div>
-                <a class="back-button nothing" onclick=goBack()>
+                <a class="back-button" onclick=goBack()>
                     <i class="fa fa-times-circle fa-2x"></i>
                 </a>
 
@@ -120,6 +120,7 @@
             $(".nothing").hide();
             $(".continue").hide();
             $(".nothing2").hide();
+            $(".back-button").hide();
         });
         
         $(".clickable-doc").click(function(){
