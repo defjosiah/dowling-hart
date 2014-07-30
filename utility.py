@@ -57,7 +57,7 @@ def return_file_years(path):
         for entry in files:
             file_path = os.path.join(root, entry)
             name_year[entry] = parse_markdown_headers(file_path)
-            name_year[entry]["md"] = return_html(
+            name_year[entry]["md"] = parse_text(
                                         file_path, name_year[entry]["mc"])
 
     return (summarize_years(name_year), name_year)
@@ -86,31 +86,36 @@ def summarize_years(name_year):
     return (int(temp[-1][1]["date"]) - int(temp[0][1]["date"]),  \
             int(temp[0][1]["date"]))
 
-def return_html(path, mc):
+def md_to_html(md, ext=[]):
     """
-    Given an input path, return an html string of the corresponding input
-    markdown. Also use jinja macro to process figures in the text. If it is
-    background text, return the html of the input markdown. If it is explore
-    text, return a dictionary mapping "<key" to html rendered as markdown. 
+    Convert markdown to html using the Python markdown module. Optionally
+    provide extensions for the conversion.
+    """
+    return markdown.markdown(md, output_format="html5", safe_mode=False, extensions=ext)
+
+def parse_text(path, mc):
+    """
+    Given an input path, determine the type of the text file.
+    If it is background text, return the html of the input markdown,
+    using a jinja macro to process figures. If it is explore
+    text, return a dictionary mapping "<key" to markdown text. 
     """
     f = codecs.open(path, mode="r", encoding="utf-8")
 
     if mc == "none":
-        html = markdown.markdown(f.read(), output_format="html5",
-                                    safe_mode=False)
-     
+        html = md_to_html(f.read())
         t = Template("""
           {% macro figure(caption, src) -%}
           <figure class="cap-top">
-    	      <a href="{{ src }}">
+              <a href="{{ src }}">
                  <img src="{{ src }}" alt="{{ caption }}">
-    		  </a>
+              </a>
           <figcaption>
               {{ caption }}
           </figcaption>
           </figure>
           {%- endmacro %}
-    	  """ + html)
+          """ + html)
         return t.render()
     else:
         temp_dict = {}
@@ -129,11 +134,5 @@ def return_html(path, mc):
         #turn each entry into a markdown string for the entry, turn
         #it back into a dictionary at the end dict(tuple()) turns 
         # (key,value) into {key: value}
-        a = dict(tuple(map(lambda x: (x[0], markdown.markdown(x[1], 
-                                    output_format="html5",
-                                    safe_mode=False,
-                                    extensions=["footnotes(BACKLINK_TEXT=)"]) ), 
-                                    temp_dict.items())))
+        a = dict(tuple(map(lambda x: (x[0], md_to_html(x[1], ["footnotes(UNIQUE_IDS=True, BACKLINK_TEXT=)"])), temp_dict.items())))
         return a
-
-

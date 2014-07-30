@@ -1,7 +1,6 @@
 import os
 import utility
 import codecs
-import markdown
 from flask import Flask
 from flask import render_template
 
@@ -10,13 +9,13 @@ util = utility.UtilityFunc()
 
 @app.route('/')
 def index():
-    intro = utility.return_html('./text/index_intro.md', 'none')
+    intro = utility.parse_text('./text/index_intro.md', 'none')
     return render_template("index.html", intro=intro)
 
 @app.route('/background/')
 def background():
     build_background_timeline()
-    intro = utility.return_html('./text/backg_intro.md', 'none')
+    intro = utility.parse_text('./text/backg_intro.md', 'none')
     return render_template('background.html', 
                             items=util.backg_render, 
                             tot_points=len(util.backg_render),
@@ -28,11 +27,8 @@ def explore():
     build_explore_timeline()
     f = codecs.open("./text/directions/expl_directions.txt", mode="r", encoding="utf-8")
     g = codecs.open("./text/directions/expl_game_directions.txt", mode="r", encoding="utf-8")
-    f = markdown.markdown(f.read(), output_format="html5",
-                                    safe_mode=False)
-    g = markdown.markdown(g.read(), output_format="html5",
-                                    safe_mode=False)
-
+    f = utility.md_to_html(f.read())
+    g = utility.md_to_html(g.read())
     return render_template('explore.html',
                         items=(util.expl_render, util.backg_render),
                         solution=util.expl_answer, 
@@ -89,4 +85,4 @@ def calculate_timeline_placement(name_year, buf, exp=False):
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
