@@ -10,7 +10,7 @@ util = utility.UtilityFunc()
 
 @app.route('/')
 def index():
-    return "<a href='/background/'>Index to Background</a>"
+    return render_template("index.html")
 
 @app.route('/background/')
 def background():
