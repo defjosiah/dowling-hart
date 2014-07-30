@@ -140,6 +140,7 @@
             //easy to show the corresponding document views, I 
             //find this clever, though I'm not sure if this is the
             //javacript way to do it
+            $(".Content h3").css("font-size", "0em");
             $("#" + this.id + "text").show();
             $("#" + this.id + "mc").show();
 
@@ -257,6 +258,7 @@
             }
             else {
                 alert("Try Again! Look at the Hints!");
+                $(".Content h3").css("font-size", "1.0em");
             }
         });
 
