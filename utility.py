@@ -103,7 +103,7 @@ def parse_text(path, mc):
     f = codecs.open(path, mode="r", encoding="utf-8")
 
     if mc == "none":
-        html = md_to_html(f.read())
+        html = md_to_html(f.read(), ["footnotes(UNIQUE_IDS=True, BACKLINK_TEXT=)"])
         t = Template("""
           {% macro figure(caption, src) -%}
           <figure class="cap-top">
