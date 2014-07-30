@@ -56,3 +56,7 @@ tip: Have you considered the size of the event and the excitement of the crowd?
 
 tip: Have you considered how positively the event is portrayed? 
 >
+
+<answers
+All of the above+Hero
+>

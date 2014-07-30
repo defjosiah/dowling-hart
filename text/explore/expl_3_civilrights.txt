@@ -68,3 +68,6 @@ tip: Have you considered the author’s emphasis on the street's location in an 
 tip: Have you considered that, as a Confederate, Dowling would have fought to protect slavery?
 >
 
+<answers
+Fought for the Confederacy and therefore for slavery+It is the main street of a predominantly African-American neighborhood
+>

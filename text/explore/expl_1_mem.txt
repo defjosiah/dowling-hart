@@ -44,11 +44,11 @@ man said: "We will never retire!"
 
 2. The Battle of Sabine Pass should be forgotten
 
-3. Mud forts are the best defenses
+3. Mud forts are the best defenses 
 
 4. The Battle of Sabine Pass should be remembered
 
-tip: Have you considered that the speaker believes that the Battle of Sabine Pass is more remarkable than the Battle of Thermopylae?
+###tip: Have you considered that the speaker believes that the Battle of Sabine Pass is more remarkable than the Battle of Thermopylae?
 
 ##The speaker’s opinion of Dick Dowling is that he was
 
@@ -60,7 +60,11 @@ tip: Have you considered that the speaker believes that the Battle of Sabine Pas
 
 4. More famous than he should be
 
-tip: Have you considered that the speaker called Dowling brave for winning the
-battle despite being outnumbered?
+###tip: Have you considered that the speaker called Dowling brave for winning the battle despite being outnumbered?
 
 >
+
+<answers
+The Battle of Sabine Pass should be remembered+A hero for winning the Battle of Sabine Pass
+>
+
